@@ -3,137 +3,206 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DREDGE Wiki - theIronRig</title>
+        <title>DREDGE Wiki - The Iron Rig</title>
         <link rel="stylesheet" href="style.css">
     </head>
+
     <body class="bodyMapa">
         <header>
             <h1>DREDGE</h1>
             <nav>
-                <a href="index.html">Início</a>
-                <a href="personagens.html">Personagens</a>
-                <a href="catalogo.html">Catálogo</a>
-                <a href="bestiario.html">Bestiário</a>
-                <a href="mapa.html">Mapa</a>
+                <a href="index.html">Home</a>
+                <a href="personagens.html">Characters</a>
+                <a href="catalogo.html">Catalog</a>
+                <a href="bestiario.html">Bestiary</a>
+                <a href="mapa.html">Map</a>
             </nav>
         </header>
+
         <main class="mainIronRig">
-           <h1 class="titulo-plateferro">A Plataforma Férrea</h1>
+
+           <h1 class="titulo-plateferro">The Iron Rig</h1>
+
            <div class="fichaTecnicaMapa">
-               <h3>Ficha Técnica</h3>
-               <p><b>Nome:</b> The Iron Rig</p>
-               <p><b>Região:</b> Plataforma de perfuração oceânica</p>
-               <p><b>Localização:</b> J-15</p>
+               <h3>Technical Sheet</h3>
+               <p><b>Name:</b> The Iron Rig</p>
+               <p><b>Region:</b> Offshore drilling platform</p>
+               <p><b>Location:</b> J-15</p>
                <p><b>DLC:</b> The Iron Rig</p>
-               <p><b>Proprietária:</b> Ironhaven Corporation</p>
+               <p><b>Owner:</b> Ironhaven Corporation</p>
             </div>
+
             <aside class="asideNav">
                 <fieldset class="fieldsetContent">
-                    <h3>Conteúdo</h3>
-                    <button class="botaoToggle" onclick="alterarConteudo(this)">[Fechar]</button>
+                    <h3>Contents</h3>
+                    <button class="botaoToggle" onclick="alterarConteudo(this)">[Close]</button>
                 </fieldset>
+
                 <fieldset class="showFieldset">
                     <ol class="olContentCatalogo">
-                        <li><a href="#introducaoIronRig">Descrição</a></li>
-                        <li><a href="#historiaIronRig">História</a></li>
-                        <li><a href="#fabricaIronRig">Fábrica</a></li>           
-                        <li><a href="#techLabIronRig">Laboratório Técnico</a></li>
-                        <li><a href="#geradorIronRig">Gerador</a></li>
-                        <li><a href="#sciLabIronRig">Laboratório de Ciências</a></li>
-                        <li><a href="#fleetServicesIronRig">Serviços de Frota</a></li>
-                        <li><a href="#defencesIronRig">Defesas</a></li>
-                        <li><a href="#foundryIronRig">Metalúrgica</a></li>
-                        <li><a href="#undermarketIronRig">Submercado</a></li>
+                        <li><a href="#introducaoIronRig">Description</a></li>
+                        <li><a href="#historiaIronRig">History</a></li>
+                        <li><a href="#fabricaIronRig">Factory</a></li>           
+                        <li><a href="#techLabIronRig">Technical Laboratory</a></li>
+                        <li><a href="#geradorIronRig">Generator</a></li>
+                        <li><a href="#sciLabIronRig">Science Laboratory</a></li>
+                        <li><a href="#fleetServicesIronRig">Fleet Services</a></li>
+                        <li><a href="#defencesIronRig">Defenses</a></li>
+                        <li><a href="#foundryIronRig">Foundry</a></li>
+                        <li><a href="#undermarketIronRig">Undermarket</a></li>
                     </ol>
                 </fieldset>
             </aside>
+
             <article class="introducaoIronRig">
-                <h2 id="introducaoIronRig">A Plataforma Férrea</h2>
-                <p>A Plataforma Férrea é uma gigantesca instalação industrial pertencente à Ironhaven Corporation e localizada entre as regiões da Praia Torta (Twisted Strand) e da Espinha do Diabo (Devil's Spine). Construída sobre uma área remota do oceano, a estrutura foi criada com o objetivo oficial de explorar recursos encontrados sob o fundo marinho. No entanto, conforme os eventos do DLC avançam, torna-se evidente que a empresa estava lidando com algo muito além de uma simples operação de extração.</p>
-                <p>Ao contrário das pequenas comunidades pesqueiras espalhadas pelo arquipélago, a Plataforma Férrea representa a chegada da indústria moderna ao mundo de DREDGE. Sua arquitetura metálica, suas máquinas de grande porte e sua constante atividade contrastam diretamente com os portos envelhecidos e as aldeias isoladas encontradas no restante do mapa. Mesmo à distância, sua silhueta iluminada domina o horizonte, servindo como um lembrete permanente da influência crescente da Ironhaven sobre o oceano.</p>
-                <p>Embora a corporação afirme que suas atividades visam o progresso tecnológico e econômico, diversos acontecimentos sugerem que seus verdadeiros objetivos permanecem ocultos. Desde o início da expansão, desaparecimentos misteriosos, falhas de equipamento e fenômenos impossíveis cercam a operação. Ainda assim, a empresa continua investindo recursos e expandindo suas atividades, ignorando sinais cada vez mais claros de que algo extremamente perigoso habita as profundezas abaixo da plataforma.</p>
-                <h3><b>Informações Gerais</b></h3>
+                <h2 id="introducaoIronRig">The Iron Rig</h2>
+
+                <p>
+                    The Iron Rig is a massive industrial installation owned by Ironhaven Corporation, located between Twisted Strand and Devil’s Spine. Built in a remote ocean area, it was officially created to extract resources from the seabed. However, as events unfold, it becomes clear the company is dealing with something far beyond simple extraction.
+                </p>
+
+                <p>
+                    Unlike the small fishing communities across the archipelago, the Iron Rig represents the arrival of modern industry in the world of DREDGE. Its metallic structure, large machinery, and constant activity contrast sharply with the aged ports and isolated villages elsewhere. Even from a distance, its illuminated silhouette dominates the horizon.
+                </p>
+
+                <p>
+                    Although the corporation claims its goal is technological and economic progress, numerous incidents suggest otherwise. Disappearances, equipment failures, and impossible phenomena surround the operation. Still, the company continues expanding, ignoring increasingly clear signs that something dangerous lies beneath the depths.
+                </p>
+
+                <h3><b>General Information</b></h3>
+
                 <ul class="externList">
-                    <li><b>Nome Oficial:</b> The Iron Rig</li>
-                    <li><b>Proprietária:</b> Ironhaven Corporation</li>
-                    <li><b>Tipo de Localização:</b> Plataforma de Perfuração Oceânica</li>
-                    <li><b>Introduzida em:</b> DLC The Iron Rig</li>
-                    <li><b>Coordenadas Aproximadas:</b> J-15</li>
-                    <li><b>Regiões Próximas:</b>
+                    <li><b>Official Name:</b> The Iron Rig</li>
+                    <li><b>Owner:</b> Ironhaven Corporation</li>
+                    <li><b>Location Type:</b> Offshore drilling platform</li>
+                    <li><b>Introduced in:</b> The Iron Rig DLC</li>
+                    <li><b>Coordinates:</b> J-15</li>
+
+                    <li><b>Nearby Regions:</b>
                         <ul class="internList">
-                            <li>Praia Torta (Twisted Strand)</li>
-                            <li>Espinha do Diabo (Devil's Spine)</li>
-                            <li>As Medulas (The Marrows)</li>
+                            <li>Twisted Strand</li>
+                            <li>Devil’s Spine</li>
+                            <li>The Marrows</li>
                         </ul>
                     </li>
-                    <li><b>Função Principal:</b>
+
+                    <li><b>Main Functions:</b>
                         <ul class="internList">
-                            <li>Centro de operações do DLC</li>
-                            <li>Base de pesquisa científica</li>
-                            <li>Plataforma de perfuração</li>
-                            <li>Centro de melhorias do barco</li>
+                            <li>DLC operations hub</li>
+                            <li>Scientific research base</li>
+                            <li>Drilling platform</li>
+                            <li>Boat upgrade center</li>
                         </ul>
                     </li>
                 </ul>
             </article>
+
             <article class="historiaIronRig">
-                <h2 id="historiaIronRig">História</h2>
-                <p>Quando o jogador chega à Plataforma de Ferro pela primeira vez, encontra apenas a estrutura base sem nenhuma funcionalidade. O Supervisor cumprimenta o jogador no elevador e, relutantemente, pede que ele encontre duas Caixas da Ironhaven para iniciar as operações básicas e construir o Gerador. O Gerador, no entanto, ainda não está funcional, pois o Supervisor descobre que a corporação não enviou carregamentos de combustível para alimentá-lo. Enquanto pensa em uma solução, o Supervisor direciona o jogador ao Cientista, que se apresenta e pede ao jogador mais uma Caixa da Ironhaven para colocar seu laboratório em funcionamento.</p>
-                <p>Assim que o laboratório do Cientista é construído, o Supervisor aborda o jogador para informar que o Gerador, na verdade, foi projetado para funcionar com biocombustível, e solicita uma quantidade de peixes (ou outro material biológico) suficiente para preencher um espaço de 5x4 no inventário. Assim que isso é concluído, a perfuratriz é ativada e uma fenda de aspecto vulcânico se abre no fundo do mar, estendendo-se até As Medulas, onde surgem manchas de contaminação e novos peixes para serem capturados. No entanto, para pescar esses peixes, o jogador deve aprimorar seu equipamento de pesca na própria Plataforma de Ferro. O Cientista e o Supervisor notam que a Fenda é instável e fazem preparativos para removê-la do fundo do mar.</p>
-                <p>O Cientista solicita que o jogador colete amostras desses novos peixes, fornecendo uma Vara Infundida para a tarefa. Ele precisará de um Monstro Tully, um Osteostráceo, um Peixe-espátula e um Pepino-do-mar (que deve ser capturado com um covo). Assim que esses espécimes são entregues, o Cientista nota que eles são, de fato, espécimes antigos e outrora extintos, especulando que a fenda os está "enviando de volta para cima na coluna de água". Ele é brevemente interrompido pela remoção da perfuratriz devido ao sedimento, o que só serve para expandir a fenda e as manchas subsequentes de contaminação até os Penhasco da Tempestade.</p>
-                <p>Vendo que agora há mais a ser descoberto, o Cientista solicita que o jogador colete uma amostra desse líquido contaminado usando uma Bomba de Sucção, que limpará a substância da superfície da água e fornecerá Recipientes Escuros. Ele também pede mais espécimes das novas manchas de contaminação nos Penhasco da Tempestade, exigindo um Peixe-Cavalo, um Náutilo, uma Sollasina e um Trilobita (onde um covo também é necessário). A captura do Náutilo exigirá um Guincho Infundido ou um Guindaste Infundido para o tipo de pesca Oceânica, ambos exigindo uma Caixa da Ironhaven e um Recipiente Escuro para serem fabricados.</p>
-                <p>Após a entrega da segunda rodada de espécimes, o Cientista coleta amostras de sangue de cada um, o que parece desencadear uma reação das profundezas. <span class="hiddenSpoilersMapa">Grandes tentáculos roxos cobertos de olhos, provavelmente pertencentes à Divindade, agarram-se às pernas da plataforma e a sacodem, embora nenhum dano no jogo seja causado ao jogador ou às instalações</span>, e a fenda se expande até a Bacia Estelar. O Cientista observa o evento com interesse e revela que já teve uma subordinada, a quem conhecemos como a Pesquisadora na Antiga Fortaleza. Ele nos pede para fazer uma visita à Pesquisadora e solicitar a tecnologia de dissuasão que ela usou na Criatura da Bacia Estelar. Naturalmente, o Cientista também nos pede para coletar amostras da região, o que exige uma vara Abissal e Hadal aprimorada, como o Guindaste Infundido. Os espécimes solicitados são um Peixe-tripé, um Tubarão-águia, uma Kerygmachela e uma Lesma-do-mar.</p>
-                <p>Assim que os espécimes da Bacia Estelar são entregues, chega o Executivo, um alto funcionário da corporação Ironhaven. Ele repreende o Supervisor por confiar as tarefas anteriores ao jogador e é geralmente desdenhoso conosco. Apesar das preocupações de segurança daqueles a bordo da plataforma, ele exige que a perfuratriz seja cravada novamente no fundo do mar, fazendo com que a fenda se expanda até a Praia Torta. O Cientista, agora cada vez mais perdido em suas pesquisas, nos pede mais espécimes. Um Boreaspis, uma Opabinia, um Xiphactinus e um Niponite devem ser entregues para avançar na história.</p>
-                <p>Depois de entregar esses espécimes ao Cientista, ele os tritura em uma substância escura que podemos presumir ser a contaminação. O Executivo é visto exigindo que o Supervisor empurre a perfuratriz ainda mais fundo no fundo do mar, usando toda a energia disponível. Isso naturalmente faz com que a fenda se expanda até a Espinha do Diabo, mas também atrai uma atenção inesperada. <span class="hiddenSpoilersMapa">O Leviatã manifesta sua presença, rugindo e circulando a plataforma por algum tempo, presumivelmente descontente com a perfuração descuidada que o Executivo exigiu</span>. Mesmo diante disso, o Executivo permanece firme — sem se preocupar com a vida de seus funcionários e sem se intimidar com a exibição. Temendo legitimamente por sua vida, o Supervisor nos pede para encontrar uma maneira de causar um "contratempo operacional" a bordo da Plataforma, pensando em modificar as Defesas que haviam sido configuradas anteriormente. O jogador deve retornar à Bacia Estelar e falar com a Pesquisadora para obter os projetos. O Cientista, que parece estar perdendo totalmente a sanidade, "solicita" mais amostras, agora buscando uma suposta pureza dentro da contaminação, à qual ele se refere como o "sangue" do "ancestral". Os espécimes são um Dunkleosteus, um Peixe-dragão-gigante, uma Vetulicólia e um Escorpião-marinho.</p>
-                <p>A Pesquisadora lhe dirá como você pode alterar a mensagem emitida pelo Dispositivo de Defesa da Plataforma de "FUGIR" para "EMERGIR", com a ideia de que isso deve <span class="hiddenSpoilersMapa">atrair os grandes tentáculos novamente</span>, esperançosamente assustando o Executivo e interrompendo as atividades da Plataforma. Quando você traz os materiais corretos e altera a mensagem, <span class="hiddenSpoilersMapa">os tentáculos aparecem e começam a espremer as pernas da Plataforma, que começa a entrar em colapso. O Leviatã aparece mais uma vez e ataca violentamente os tentáculos, afastando-os antes que a Plataforma seja completamente destruída.</span> Após esse encontro, o Executivo deixa a Plataforma as pressas em um helicóptero, confirmando que o plano funcionou e que a Plataforma parará de perfurar. Você ainda poderá interagir com todos os serviços da Plataforma.</p>
-                <p>Você pode trazer os últimos quatro espécimes para o Cientista para concluir sua linha de missões. A essa altura, ele mal falará e esconderá o rosto atrás de sua prancheta, parecendo ter enlouquecido completamente. Quando você resgata todos eles na Espinha do Diabo e os traz de volta ao Laboratório de Ciências, descobre que <span class="hiddenSpoilersMapa">a pessoa que outrora foi o Cientista se transformou em uma própria Aberração, um híbrido horrível de humano e peixe. Ele tentará atacar você e depois pulará por uma janela em direção ao oceano. Depois que tudo isso acontecer, você poderá capturá-lo como um peixe chamado ??? usando Isca Aberrante no Mar Aberto.</span></p>
+                <h2 id="historiaIronRig">History</h2>
+
+                <p>
+                    When the player first arrives at the Iron Rig, only the base structure is functional. The Supervisor greets the player and asks them to find two Ironhaven Crates to begin basic operations and build the Generator. However, the Generator is not functional yet, as no fuel shipments were sent.
+                </p>
+
+                <p>
+                    The Supervisor directs the player to the Scientist, who requests another Ironhaven Crate. Once built, the Generator is revealed to require biofuel. After supplying fish, a volcanic-like fissure opens on the seabed, spreading contamination across The Marrows.
+                </p>
+
+                <p>
+                    The Scientist requests samples from these infected waters using an Infused Rod. Strange ancient species appear, suggesting the fissure is bringing extinct life back. Meanwhile, the situation worsens as contamination spreads further.
+                </p>
+
+                <p>
+                    The story escalates as executives arrive, drilling intensifies, and the rift expands across multiple regions. Massive tentacles appear, the Leviathan reacts, and corporate decisions push the rig toward collapse. The player is eventually tasked with modifying defenses to stop the operation.
+                </p>
+
+                <p>
+                    As the experiments continue, the Scientist gradually loses sanity, eventually transforming into an aberration after prolonged exposure to samples from the deep.
+                </p>
             </article>
+
             <article class="fabricaIronRig">
-                <h2 id="fabricaIronRig">Fábrica</h2>
-                <p>Gerenciada pela Engenheira, a Fábrica requer uma caixa para ser montada. Ela pode ser usada para aprimorar o equipamento do jogador, além de dar acesso a tecnologias novas e úteis. A Fábrica possui 4 níveis, e cada um exige Caixas e o avanço na história da DLC para ser desbloqueado.</p>
+                <h2 id="fabricaIronRig">Factory</h2>
+
+                <p>
+                    Managed by the Engineer, the Factory requires crates to operate and allows upgrades to the player’s equipment. It has four levels, each unlocked through progression.
+                </p>
+
                 <ol>
-                    <li>Infundir Equipamento é o 1º nível, oferecendo varas de pesca infundidas que podem capturar os novos peixes trazidos pela fenda. Todas, exceto a Vara Infundida Costeira/Rasa, exigem Recipientes Escuros para serem fabricadas.</li>
-                    <li>Coleta de Materiais é o 2º nível, desbloqueável após a conclusão da primeira parte de "Espécimes Estranhos", exigindo outra Caixa para construir a seção. Isso concede uma rede de arrasto e um covo para coletar materiais, além de um item fundamental para avançar na Perseguição: a Bomba de Sucção. É ela que permite coletar a Lama em Recipientes Escuros.</li>
-                    <li>Tecnologia de Reparo é o 3º nível, trazendo a opção de fabricar Kits de Reparo de Casco, Pacotes de Reparo de Extrator e Chá Calmante usando 1 caixa para cada. Esses itens são úteis para a manutenção da sua embarcação no mar, onde, de outra forma, você teria que atracar em áreas designadas.</li>
-                    <li>Refino de Isca é o 4º e último nível, permitindo aprimorar a Isca em Isca Aberrante, Isca de Caranguejo Instantânea e Isca Exótica, esta última permitindo que os jogadores capturem novamente peixes exóticos, bem como suas variantes aberrantes.</li>
+                    <li>Infused Equipment unlocks fishing rods capable of catching altered species.</li>
+                    <li>Material Collection unlocks nets, crab pots, and suction tools.</li>
+                    <li>Repair Technology enables hull repair kits and maintenance tools.</li>
+                    <li>Bait Refinement allows creation of aberrant and exotic bait types.</li>
                 </ol>
             </article>
+
             <article class="techLabIronRig">
-                <h2 id="techLabIronRig">Laboratório Técnico</h2>
-                <p>O Laboratório de Tecnologia também é chefiado pela Engenheira e requer uma caixa para ser construído. Ele possui dois níveis: o nível um é "Melhorias de Habilidade", que permite ao jogador aprimorar suas Luzes, Buzina de Névoa e Luneta em variantes muito mais eficazes. O nível dois é "Melhorias de Casco e Atributos", oferecendo uma variedade de utilitários 1x1 que podem ser instalados em qualquer lugar do barco, proporcionando pequenos benefícios para coisas como velocidade de pesca e a geração de calor da Pressa. Cada um desses utilitários exige Peças de Pesquisa para ser desbloqueado e deve ser fabricado com uma mistura de Caixas da Ironhaven e Respingos Escuros.</p>
+                <h2 id="techLabIronRig">Technical Laboratory</h2>
+
+                <p>
+                    The Technical Laboratory allows upgrades for lights, fog horns, and hull utilities. It also enables performance improvements for fishing and navigation systems using Ironhaven materials and research parts.
+                </p>
             </article>
+
             <article class="geradorIronRig">
-                <h2 id="geradorIronRig">Gerador</h2> <!--Supervisor = supervisor-->
-                <p>O primeiro edifício que o jogador encontrará na plataforma. Após a missão inicial de preencher seu espaço de carga de 5x4 com peixes, o Gerador funcionará permanentemente. O Supervisor afirmará que a corporação lhe concedeu uma verba para fornecer dinheiro ao jogador em troca de peixes, tornando-o funcionalmente idêntico a vender peixes no Peixeiro ou na Mercadora Ambulante.</p>
+                <h2 id="geradorIronRig">Generator</h2>
+
+                <p>
+                    The first functional building on the rig. Once filled with fish, it powers the entire facility and allows the player to sell resources in exchange for currency, similar to traditional markets.
+                </p>
             </article>
+
             <article class="sciLabIronRig">
-                <h2 id="sciLabIronRig">Laboratório de Ciências</h2>
-                <p>O Laboratório de Ciências é, previsivelmente, onde o Cientista reside e realiza suas pesquisas. Ele é desbloqueado logo após a inicialização do gerador, sendo construído com uma única caixa. Aqui, o jogador pode entregar amostras de cada região para onde a contaminação e os peixes subsequentes se espalharam, além de poder conversar com o Cientista.</p>
+                <h2 id="sciLabIronRig">Science Laboratory</h2>
+
+                <p>
+                    Home of the Scientist, used to analyze samples from affected regions and study biological anomalies emerging from the rift.
+                </p>
             </article>
+
             <article class="fleetServicesIronRig">
-                <h2 id="fleetServicesIronRig">Serviços de Frota</h2>
-                <p>Os Serviços de Frota ficarão acessíveis depois que o jogador tiver entregado as amostras da Bacia Estelar e o Executivo tiver chegado. Eles são usados exclusivamente para aprimorar o barco do jogador para o casco de nível 5 "Industrial", exigindo duas caixas da Ironhaven e uma quantia de $2.500. O casco subsequente concede mais onze espaços de carga.</p>
+                <h2 id="fleetServicesIronRig">Fleet Services</h2>
+
+                <p>
+                    Unlocks ship upgrades up to Industrial Hull Tier 5, allowing major expansion of cargo capacity and durability.
+                </p>
             </article>
+
             <article class="defencesIronRig">
-                <h2 id="defencesIronRig"></h2>
-                <p>As Defesas podem ser acessadas após a entrega das amostras das Penhasco da Tempestade. A Pesquisadora da Bacia Estelar fornecerá um dispositivo que faz com que os tentáculos soltem a plataforma.</p>
+                <h2 id="defencesIronRig">Defenses</h2>
+
+                <p>
+                    Unlocks systems that can alter rig defenses, including devices used to repel large deep-sea entities.
+                </p>
             </article>
+
             <article class="foundryIronRig">
-                <h2 id="foundryIronRig">Metalúrgica</h2>
-                <p>A Metalúrgica é gerenciada pelo Fundidor, um homem suspeito usando equipamentos de soldagem que parece saber mais do que demonstra. A Metalúrgica possui dois níveis:</p>
+                <h2 id="foundryIronRig">Foundry</h2>
+
+                <p>
+                    Managed by the Smelter, the Foundry allows crafting and refining materials into usable industrial resources.
+                </p>
+
                 <ol>
-                    <li>O primeiro é o "Processamento de Materiais", que permite a fabricação de Caixas da Ironhaven a partir de pedaços individuais de sucata, madeira e tecido, além de um pagamento irrisório de $10,00. </li>
-                    <li>O segundo nível, "Refino de Recursos", oferece diversos recursos em troca de Caixas da Ironhaven e outros materiais. Dois rolos de tecido, três sucatas, três unidades de madeira ou uma Peça de Pesquisa podem ser trocados por uma única caixa aqui. Um único Recipiente Escuro pode ser fabricado com uma sucata e dois Respingos Escuros, e uma unidade de Metal Refinado pode ser trocada por duas caixas.</li>
+                    <li>Material Processing converts scrap into Ironhaven Crates.</li>
+                    <li>Resource Refinement allows conversion between metals, wood, cloth, and dark residue.</li>
                 </ol>
             </article>
+
             <article class="undermarketIronRig">
-                <h2 id="undermarketIronRig">Submercado</h2>
-                <p>O Submercado é gerenciado por ???, cuja verdadeira identidade é um completo mistério (ou seja, o Fundidor). O Submercado é funcionalmente idêntico ao estaleiro da Mercadora Ambulante. Explosivos e Blocos de Gelo serão estocados aqui quando suas respectivas missões forem concluídas.</p>
+                <h2 id="undermarketIronRig">Undermarket</h2>
+
+                <p>
+                    A hidden trading system managed by an unknown figure, functioning similarly to traditional shipyard services and handling special resources and explosives.
+                </p>
             </article>
+
         </main>
+
         <footer>
-            <p>Site inspirado em DREDGE - Projeto Integrador</p>
+            <p>Site inspired by DREDGE - Integrative Project</p>
         </footer>
+
         <script src="script.js"></script>
     </body>
 </html>
