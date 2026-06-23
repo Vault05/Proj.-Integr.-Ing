@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DREDGE Wiki - Bestiário</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="headerEnemies">
+            <h1>DREDGE</h1>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="personagens.html">Personagens</a>
+                <a href="catalogo.html">Catálogo</a>
+                <a href="bestiario.html">Bestiário</a>
+                <a href="mapa.html">Mapa</a>
+            </nav>
+        </header>
+        <div class="titleEnemies">
+            <h1>Enciclopédia de Ameaças</h1>
+            <p class="subtitle">O registro definitivo de todos os terrores que habitam as águas e a mente</p><br><br>
+        </div>
+        <div class="filters">
+            <button class="active" onclick="filterFish('all')">Todos os Perigos</button>
+            <button onclick="filterFish('regional')">Monstros Territoriais</button>
+            <button onclick="filterFish('panic')">Manifestações de Pânico</button>
+        </div>
+        <main class="bestiary-grid">
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="Images\Serpent2.webp" m="Anfípode Gigante">
+                </div>
+                <h2>O Anfípode Gigante</h2>
+                <span class="habitat">Falésias do Vendaval (Gale Cliffs)</span>
+                <p class="description">Um crustáceo cego de proporções bíblicas que rasteja pelos canais rochosos de Gale Cliffs. Ele destrói rochas e cascos com a mesma facilidade quando enfurecido.</p>
+            </div>
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="Images\StellarBasinCreature.webp" alt="Criatura Abissal" />
+                </div>
+                <h2>A Criatura Abissal</h2>
+                <span class="habitat">Bacia Estelar (Stellar Basin)</span>
+                <p class="description">Um monstro marinho colossal cujos tentáculos bioluminescentes bloqueiam o centro da Bacia. Ataca impiedosamente qualquer barco, a menos que seja temporariamente repelido pela tecnologia do laboratório.</p>
+            </div>
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="Images\MindSucker.webp" alt="Sugadores de Mente" />
+                </div>
+                <h2>Sugadores de Mente</h2>
+                <span class="habitat">Vertente Retorcida (Twisted Strand)</span>
+                <p class="description">Parasitas gigantescos disfarçados entre as raízes dos manguezais. Eles caçam pelo som do motor e, ao cercarem o barco, atacam diretamente a sanidade mental do pescador.</p>
+            </div>
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="Images\Piranhas.webp" alt="Cardume Cego" />
+                </div>
+                <h2>Cardume Cego</h2>
+                <span class="habitat">Espinha do Diabo (Devil's Spine)</span>
+                <p class="description">Pequenos peixes parasitários e avermelhados. Eles não danificam o barco diretamente, mas grudam no casco emitindo um calor escaldante e guinchos que atraem predadores maiores.</p>
+            </div>
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="Images\UnseeingMother2.webp" alt="A Mãe" />
+                </div>
+                <h2>A Mãe (Monstro de Magma)</h2>
+                <span class="habitat">Espinha do Diabo (Devil's Spine)</span>
+                <p class="description">Uma gigantesca abominação de pedra e lava que patrulha as ruínas submersas. Ela é implacável e ataca ferozmente o jogador assim que o Cardume Cego denuncia sua posição.</p>
+            </div>
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="Images\Monstrous_narwhal_photo.webp" alt="O Narval Gigante" />
+                </div>
+                <h2>O Narval Gigante</h2>
+                <span class="habitat">A Extensão Pálida (The Pale Reach)</span>
+                <p class="description">Um leviatã albino que racha o gelo glacial com seu chifre maciço. Para cruzar seu território em segurança, o pescador precisa distraí-lo alimentando-o com peixes frescos.</p>
+            </div>
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="Images\Ocularooze.webp" alt="Sifonóforo Negro" />
+                </div>
+                <h2>Sifonóforo de Gosma</h2>
+                <span class="habitat">A Plataforma de Ferro (The Iron Rig)</span>
+                <p class="description">Uma entidade flutuante e gelatinosa nascida do líquido escuro derramado da fenda profunda. Suas gavinhas contaminam a água e atacam embarcações que perfuram a névoa negra.</p>
+            </div>
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="Images\Leviathan.webp" alt="O Leviatã" />
+                </div>
+                <h2>O Leviatã</h2>
+                <span class="habitat">As Bordas do Mapa (O Abismo)</span>
+                <p class="description">
+                    A criatura definitiva que circunda o mundo. Aqueles toolos que tentam
+                    fugir do arquipélago navegando em direção ao oceano aberto são
+                    engolidos inteiros por suas mandíbulas colossais.
+                </p>
+            </div>
+            <div class="fish-card panic">
+                <div class="fish-image-container">
+                    <img src="Images\GhostShip.webp" alt="Falso Barco" />
+                </div>
+                <h2>Falso Barco Pescador</h2>
+                <span class="habitat">Mar Aberto | Noite Alta</span>
+                <p class="description">Uma silhueta na névoa com luzes idênticas às de um navio aliado. Ao se aproximar, a ilusão se desfaz, revelando os dentes de um Peixe-Pescador gigante que usa a luz como isca.</p>
+            </div>
+            <div class="fish-card panic">
+                <div class="fish-image-container">
+                    <img src="Images\Birds.webp" alt="Corvos da Névoa" />
+                </div>
+                <h2>Corvos da Névoa</h2>
+                <span class="habitat">Qualquer Região | Pânico Médio</span>
+                <p class="description">Pássaros fantasmagóricos que surgem quando a mente do capitão começa a falhar. Eles circundam o convés e roubam peixes e cargas diretamente do porão.</p>
+            </div>
+            <div class="fish-card panic">
+                <div class="fish-image-container">
+                    <img src="Images\GhostShip.webp" alt="Barco Fantasma" />
+                </div>
+                <h2>Barco Fantasma</h2>
+                <span class="habitat">Mar Aberto | Pânico Alto</span>
+                <p class="description">Uma embarcação espectral veloz que avança diretamente na direção do jogador em rota de colisão. Embora pareça real, ela se dissipa em fumaça logo após o impacto, deixando apenas o terror.</p>
+            </div>
+            <div class="fish-card panic">
+                <div class="fish-image-container">
+                    <img src="Images\JellyBomb.webp" alt="Tornado de Névoa" />
+                </div>
+                <h2>Águas-Vivas e Trombas</h2>
+                <span class="habitat">Qualquer Região | Noite</span>
+                <p class="description">Tornados vermelhos e águas-vivas flutuantes que surgem do nada para perseguir a embarcação. Cruzar o caminho deles frita os motores do barco e bloqueia equipamentos.</p>
+            </div>
+        </main>
+        <br>
+        <footer>
+            <p>Site inspirado em DREDGE - Projeto Integrador</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

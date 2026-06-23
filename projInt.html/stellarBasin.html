@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DREDGE Wiki - stellarBasin</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="bodyMapa">
+        <header>
+            <h1>DREDGE</h1>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="personagens.html">Personagens</a>
+                <a href="catalogo.html">Catálogo</a>
+                <a href="bestiario.html">Bestiário</a>
+                <a href="mapa.html">Mapa</a>
+            </nav>
+        </header>
+        <main class="mainGame">
+            <h2>Bacia Estelar</h2>
+            <div class="fichaTecnicaMapa">
+                <h3>Ficha Técnica</h3>
+                <p><b>Nome: Stellar Basin</b></p>
+                <li><b>Região:</b> Cratera oceânica iluminada por fenômenos bioluminescentes</li>
+                <p><b>Localização:</b> D2 - G5</p>
+                <p><b>Introduzida em:</b> Jogo base DREDGE (2023).</p>
+                <p><b>Principais Funções:</b> centro de pesquisas científicas e habitat de espécimes isoladas</p>
+            </div>
+            <aside class="asideNav">
+                <fieldset class="fieldsetContent">
+                    <h3>Conteúdo</h3>
+                    <button class="botaoToggle" onclick="alterarConteudo(this)">[Fechar]</button>
+                </fieldset>
+                <fieldset class="showFieldset">
+                    <ol class="olContentCatalogo">
+                        <li><a href="#introducaoStellarBasin">Descrição</a></li>
+                        <li><a href="#historiaStellarBasin">História</a></li>
+                        <li><a href="#pontosStellarBasin">Pontos de interesse</a>
+                            <ul>
+                                <li><a href="#starlightPooton">Caixeira-viajante e ponto comercial</a></li>
+                                <li><a href="#researhPoints">Pontos de pesquisa</a></li>
+                            </ul>
+                        </li> 
+                    </ol>
+                </fieldset>
+            </aside>
+            <article class="introducaoStellarBasin">
+                <h3 id="introducaoStellarBasin" class="introducaoStellarBasin">A Bacia Estelar</h3>
+                <p>A Bacia Estelar foi descrita como uma atração turística popular devido ao seu agradável clima tropical e às suas belas águas e céus. Com ilhas localizadas ao redor de uma enorme cratera oceânica, a área é conhecida por suas águas profundas, pela intensa presença de organismos bioluminescentes que iluminam a escuridão do mar e pela possibilidade de haver algo maior abrigado na insondável profundeza daquele remoto local</p>
+            </article>
+            <article class="historiaStellarBasin">
+                <h2 id="historiaStellarBasin" class="historiaStellarBasin">História</h2>
+                <p>Com o passar dos anos, a Pesquisadora estabeleceu-se em uma pequena base de pesquisa próximas à região, responsável por grande parte do conhecimento atual sobre os organismos bioluminescentes que vivem na cratera.</p>
+                <p>Porém, após a instalção de um equipamento barulhento no Centro de Pesquisa, um imenso tentáculo saiu da cratera e começou a destruir o local, irritado. A Pesquisadora fugiu a tempo e se instalou no Fortaleza Antiga, seguindo com suas pesquisas em relação à fauna local.</p>
+                <p>Após o jogador chegar na região e falar com a Pesquisadora, ela pede por um favor, aonde o jogador deve levar até ela um Polvo Luminoso (Glowing Octopus), Lula Vaga-Lume (Firefly Squid), Água-Viva Aurora (Aurora Jellyfish), aonde após a coleta dos espécimes, ela pede para que você retorne ao Centro de Pesquisa e ache pedaços de um protótipo a ela.</p>
+                <p>Com o protótipo em mãos, a Pesquisadora pede a ajuda do jogador novamente para a coleta de amostras vindas das águas profundas e lhe entrega uma Máquina de Repulsão que deve ser instalada no Centro de Pesquisa e afasta o monstro durante algumas horas, o que abre uma oportunidade do jogador explorar a cratera e seguir com a história, tendo ajudado ela novamente ou não.</p>
+            </article>
+            <article class="pontosStellarBasin">
+                <h2 id="pontosStellarBasin">Pontos de interesse</h2>
+                <ol class="externList">
+                    <li><h3 id="starlightPooton">Caixeira-viajante e ponto comercial</h3>
+                        <p>A caixeira-viajante nos disponibiliza o <b>Pontão Estrelar</b>, localizado à oeste do centro de E2, com acesso a:</p>
+                        <ul class="internList">
+                            <li><b>Depósito:</b> nos proporciona usar nosso depósito pessoal</li>
+                            <li><b>Mercado de Peixes:</b> permite com que o jogador venda seus peixes e compre covos</li>
+                            <li><b>Doca Flutuante:</b> permite compra de upgrades ao barco com uso de recursos pegos por meio do Equipamento de Dragagem</li>
+                            <li><b>Estaleiro:</b> permite reparos ao barco e itens para compra, como varas, motores, redes de arrasto, luzes e mais</li>
+                            <li><b>Registrando Raridades:</b> oferece ao jogador uma missão de caçar peixes raros e informá-la</li>
+                        </ul>
+                    </li>
+                    <li><h3 id="researhPoints">Pontos de pesquisa</h3>
+                        <p>Existem dois pontos de pesquisa na Bacia Estelar usados pela Pesquisadora, sendo eles:</p>
+                        <ul  class="internList">
+                            <li><b>Centro de Pesquisa:</b> localizado ao estremo sudoeste em G4, era aonde a Pesquisadora originalmente se instalou até ser atacada pelo monstro presente na cratera. Após a intalação da Máquina de Repulsão pode afastá-lo temporariamente</li>
+                            <li><b>Fortaleza Antiga:</b> localizado no centro de D5, local aonde a Pesquisadora se refugiou após o ataque à última base</li>
+                        </ul>
+                    </li>
+                </ol>
+            </article>
+        </main>
+        <footer>
+            <p>Site inspirado em DREDGE - Projeto Integrador</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
