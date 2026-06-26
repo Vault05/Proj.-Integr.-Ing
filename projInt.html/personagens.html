@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DREDGE Wiki - Personagens</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="bodyPersonagens">
+        <header>
+            <h1>DREDGE</h1>
+            <nav>
+                <div class="pageLinks">
+                    <a href="index.html">Início</a>
+                    <a href="personagens.html">Personagens</a>
+                    <a href="catalogo.html">Catálogo</a>
+                    <a href="bestiario.html">Bestiário</a>
+                    <a href="mapa.html">Mapa</a>
+                </div>
+                <a href="en/characters.html" class="btn lang">Inglês</a>
+            </nav>
+        </header>
+        <div class="gridFilters">
+            <div class="filtersRow">
+                <button onclick="filterSystem('all')">Geral</button>
+                <button onclick="filterSystem('baseGame')">Jogo Base</button>
+                <button onclick="filterSystem('dlc')">DLC's</button>
+            </div>
+            <div class="filtersRow subFilters">
+                <button onclick="filterSystem('marrows')">As Medulas</button>
+                <button onclick="filterSystem('galeCliffs')">Penhasco da Tempestade</button>
+                <button onclick="filterSystem('stellarBasin')">Bacia Estelar</button>
+                <button onclick="filterSystem('twistedStrand')">Praia Torta</button>
+                <button onclick="filterSystem('devilSpine')">Espinha do Diabo</button>
+                <button onclick="filterSystem('openOcean')">Mar Aberto</button>
+                <button onclick="filterSystem('paleReach')">The Pale Reach</button>
+                <button onclick="filterSystem('ironRig')">Plataforma Férrea</button>
+            </div>
+        </div>
+        <main class="mainPersonagens">
+            <aside class="sidebarPersonagens">
+                <fieldset class="fieldsetContent">
+                    <h3>Conteúdo</h3>
+                    <button class="botaoToggle" onclick="alterarConteudo(this)">[Fechar]</button>
+                </fieldset>
+                <fieldset class="showFieldset">
+                    <br>
+                    <ol class="olContentCatalogo"><!--A B C D E F G H I J K L M N O P Q  R S T U V W X Y Z-->
+                        <li><a href="#retiredWhalerPersonagens">Caçador de Baleias Aposentado</a></li>
+                        <li><a href="#dogPersonagens">Cachorro</a></li>
+                        <li><a href="#travellingMerchantPersonagens">Caixeira-viajante</a></li>
+                        <li><a href="#shipwrigthPersonagens">Carpinteira</a></li>
+                        <li><a href="#scientistPersonagens">Cientista</a></li>
+                        <li><a href="#collectorPersonagens">Colecionador</a></li>
+                        <li><a href="#builderPersonagens">Construtora</a></li>
+                        <li><a href="#deityPersonagens">Divindade</a></li>
+                        <li><a href="#engineerPersonagens">Engenheira</a></li>
+                        <li><a href="#hermitPersonagens">Eremita</a></li>
+                        <li><a href="#dockworkerPersonagens">Estivador</a></li>
+                        <li><a href="#executivePersonagens">Executivo</a></li>
+                        <li><a href="#fanaticPersonagens">Fanático</a></li>
+                        <li><a href="#lighthouseKeeperPersonagens">Faroleira</a></li>
+                        <li><a href="#hoodedFigurePersonagens">Figura(s) Encapuzada(s)</a></li>
+                        <li><a href="#photographerPersonagens">Fotógrafa</a></li>
+                        <li><a href="#founderPersonagens">Fundidor</a></li>
+                        <li><a href="#julliePersonagens">Julie</a></li>
+                        <li><a href="#courierPersonagens">Mensageiro</a></li>
+                        <li><a href="#traderPersonagens">Mercante</a></li>
+                        <li><a href="#ingfellResidentPersonagens">Moradora de Ingfell</a></li>
+                        <li><a href="#castawayPersonagens">Náufrago</a></li>
+                        <li><a href="#grievingFatherPersonagens">Pai de Luto</a></li>
+                        <li><a href="#fishermanPersonagens">Pescador</a></li>
+                        <li><a href="#fishermongerPersonagens">Peixeiro</a></li>
+                        <li><a href="#researcherPersonagens">Pesquisadora</a></li>
+                        <li><a href="#airmanPersonagens">Piloto</a></li>
+                        <li><a href="#painterPersonagens">Pintor</a></li>
+                        <li><a href="#mayorPersonagens">Prefeito</a></li>
+                        <li><a href="#foremanPersonagens">Supervisor</a></li>
+                        <li><a href="#lastFishermanPersonagens">Último Pescador</a></li> 
+                        <li><a href="#oldMayorPersonagens">Velho Prefeito</a></li> 
+                    </ol>
+                    <br>
+                </fieldset>
+            </aside>
+            <div class="gridPersonagens">
+                <div class="itemPersonagens baseGame galeCliffs" id="retiredWhalerPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Caçador de Baleias Aposentado</h2>
+                        <p>O Caçador de Baleiras Aposentado vive em Ingfell. Ele costumava fabricar explosivos para as operações de caça às baleias de Ingfell. Os explosivos eram usados para desmembrar carcaças de baleias. Porém, há cerca de vinte anos, as baleias ficaram tão escassas em Penhasco da Tempestade (Gale Cliffs) que isso acabou encerrando a indústria baleeira.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Ele é o irmão mais velho do Eremita (Hermit), embora os dois tenham se desentendido após uma briga pela herança dos pais. Antes de concluir a missão Hermitage, ele se refere ao irmão como um demônio, mostrando que ainda guarda certo ressentimento por ele ter roubado o Brasão da Família (Family Crest) antes de partir para o assentamento próximo aos Penhascos Gale.</p>
+                            <p>Seu ressentimento diminui após o retorno do brasão, e então ele permite que o irmão fique em sua antiga oficina. Depois que a missão Hermitage for concluída, ele começará a vender Explosivos Embalados (Packed Explosives) no Porto Baleeiro.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgRetiredWhaler" src="Images\RetiredWhaler.webp" alt="RetiredWhaler">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame stellarBasin" id="dogPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Cachorro</h2>
+                        <p>O Cão é exatamente o que sua descrição diz: um cão abandonado. Ele é encontrado do lado fora das ruínas de uma cabana de resort na Bacia Estelar.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Você pode optar por entregá-lo à Pesquisadora. Se for entregue a ela, o retrato dela mudará para incluir o cão. Você também pode optar por ficar com o cão para si, mas para fazer isso você ainda deve falar com a Pesquisadora e escolher a opção "Pensando bem, acho que vou ficar com o cachorro". Fique ciente de que ficar com o cão significa que ele ocupará um espaço de 2x2 no inventário ou no armazenamento do seu barco. Além disso, o cão é um dos poucos itens que não pode ser perdido no mar (como acontece com outros itens quando você sofre um impacto) nem descartado. Independentemente da sua escolha, assim que a missão for concluída, o cão vai tossir e cuspir um Anel de Safira para você vender.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgDog" src="Images\DogA.webp" alt="Dog">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame galeCliffs stellarBasin twistedStrand devilSpine dlc paleReach" id="travellingMerchantPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Caixeira-viajante</h2>
+                        <p>A Caixeira-viajante é uma personagem encontrada em cada um dos quatro pontões marcados no mapa. Ela oferece diversos serviços úteis, como acesso ao seu depósito, um mercado de peixes, reparos de barcos no estaleiro e melhorias para barcos na doca flutuante.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Ela está presente nas principais áreas do jogo, sendo o Penhasco da Tempestade, Bacia Estelar, Praia Torta, Espinha do Diavo e na DLC The Pale Reach</p>
+                            <p>Ao conversar com ela, você receberá algumas informações levemente úteis (principalmente relacionadas à história sobre a área ao redor) e a atividade Registrando Raridades.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgTravellingMerchant" src="Images\Travelling_merchant_-_dredge.webp" alt="Travelling Merchant">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="shipwrigthPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Carpinteira</h2>
+                        <p>A Carpinteira está localizada no porto da Medula Maior, nas Medulas. Ela vende Redes e Varas de Pesca para pescar, além de Motores e Luzes para melhorar seu barco. Ela também administra a Doca Flutuante, onde você pode fazer melhorias no seu navio.</p>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgShipWrigth" src="Images\The_Shipwright_Transparent.webp" alt="Shipwright">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens dlc ironRig" id="scientistPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Cientista</h2>
+                        <p>O Cientista é um funcionário da Ironhaven Corporation há mais de 50 anos. Ele está realizando experimentos nos peixes estranhos e no Fluido Escuro encontrados pela área, que começaram a aparecer a partir da fenda criada pelas operações de perfuração.</p>
+                        <div class="detalhesAdicionais">
+                            <p>O Cientista encarrega o Pescador de coletar várias novas espécies de peixes, Recipientes Escuros cheios da substância liberada e de buscar o resultado da pesquisa de seu assistente, estando presente nas Atividades: "Espécimes Estranhos", "Defenda a Plataforma" e "Contaminação".</p>
+                        </div>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>A cada etapa de cada perseguição, se o jogador conversar com o Cientista, poderá ver que a pesquisa não se baseia no altruísmo e na melhoria da vida humana, como afirmado, e que o pesquisador conhece e entende as consequências de suas ações. Depois de obter as espécies da Praia Torta, o Cientista pode ser visto escondendo o rosto e, depois de configurar as defesas da plataforma, ele vira o rosto, mostrando que seus olhos estão alterados. Depois de sair, na próxima vez que você o encontrar, ele estará escondido da vista atrás de seu quadro e, após entregar os peixes da Espinha do Diabo para ele, ele avançará abruptamente sobre os peixes e começará a consumi-los. Com essa ação, ele revela sua nova forma, completamente corrompida pelas Profundezas, aponta com sua garra e ruge acusatoriamente para o Pescador antes de pular pela janela em direção ao oceano aberto.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                            <button class="btnToggleSpoiler" onclick="toggleSpoiler(this)">[Mostrar Spoilers]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgScientist" src="Images\Scientist.png" alt="Scientist">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="collectorPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Colecionador</h2>
+                        <p>O Colecionador é um personagem principal em DREDGE. Ele é encontrado na Ilha de Pedra Preta, nas Medulas, e dá ao jogador a missão principal O Colecionador. Ele dá a você a missão O Colecionador após você entregar o lenço a ele na Ilha de Pedra Preta.</p>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>As interações do jogador com o Colecionador afetam significativamente o final do jogo. No final padrão, assim que todas as relíquias forem entregues ao Colecionador, ele dirá para você levá-lo a um local em mar aberto. Lá, ele jogará as relíquias na água para reviver sua falecida esposa, invocando uma criatura colossal cuja evocação destrói Medula Maior. Durante a jogabilidade, você pode descobrir pistas sobre o livro que o Colecionador carrega. Se você desvendar os segredos do livro conversando com o Velho Prefeito e a Faroleira, um final "bom" secreto pode ser alcançado. Neste final, o Pescador descobre que o Colecionador é apenas o seu próprio reflexo e, após falar com a Faroleira, ele decide jogar o Livro das Profundezas de volta ao mar. Se este final for realizado primeiro, as ações do Colecionador no final padrão serão reescritas para parecer que o próprio Pescador as está executando.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleSpoiler" onclick="toggleSpoiler(this)">[Mostrar Spoilers]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgCollector" src="Images\The_Collector.webp" alt="Collector">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="builderPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Construtora</h2>
+                        <p>A Construtora aparece assim que o barco do Pescador recebe o equipamento de dragagem do Colecionador. Ela declarará seu desejo de deixar Medula Maior e pedirá que ele entregue alguns materiais de construção na Ponta de Aço, onde ela planeja se estabelecer e caso a ajuda seja concebida, a ilha lhe permitirá acesso ao seu depósito.</p>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgBuilder" src="Images\Builder.webp" alt="Builder">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame openOcean" id="deityPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Divindade</h2>
+                        <p>A Divindade (The Deity) é uma criatura enorme e misteriosa que aparece nos finais de DREDGE. Ela pode ser considerada a principal antagonista do jogo, pois é presumivelmente a criadora das aberrações e a causa da loucura e da influência maligna que se espalham por todo o jogo, seja intencionalmente ou apenas como uma consequência de sua existência.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Como um horror cósmico de origens desconhecidas, é impossível especular sobre as intenções da Divindade (The Deity), e não há uma maneira de classificá-la como boa ou má. Porém, a influência que ela espalha pode ser considerada maligna, simplesmente pelos danos que causa ao mundo e aos humanos que vivem nele.</p>
+                            <p>É sugerido que os faróis são capazes de conter a influência da criatura e, talvez, até a própria criatura, mantendo-a afastada das ilhas. O Farol Antigo (Ancient Lighthouse) aparentemente conseguiu impedir que ela destruísse a antiga civilização da Espinha do Diabo, mas o farol foi destruído por uma erupção vulcânica, e a antiga civilização acabou completamente destruída tanto pela erupção quanto pelo mal que os invadiu depois que a luz se apagou.</p>
+                        </div>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>No final padrão do jogo, a Divindade (The Deity) emerge do fundo do mar, muito a oeste da Medula Maior, tendo sido despertada pelo feitiço que o Colecionador usou para trazer sua esposa de volta das profundezas. Nos créditos finais, Greater Marrow aparece em chamas e o farol foi destruído, sugerindo que não há mais nada impedindo que os horrores cósmicos abaixo das ondas influenciem as ilhas.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                            <button class="btnToggleSpoiler" onclick="toggleSpoiler(this)">[Mostrar Spoilers]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgDeity" src="Images\The_Deity.webp" alt="Deity">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens dlc ironRig" id="engineerPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Engenheira</h2>
+                        <p>A Engenheira é uma funcionária da Plataforma Férrea. Ela está localizada nas instalações do Laboratório Técnico e da Fábrica da plataforma.</p>
+                        <div class="detalhesAdicionais">
+                            <p>A Engenheira permite que os jogadores pesquisem e aprimorem suas Habilidades, além de instalar dispositivos que concedem benefícios passivos para várias ações no jogo. Isso inclui o aumento das velocidades de curva, marcha ré, pesca e dragagem, bem como a absorção do calor da habilidade Pressa e o aumento da taxa de captura das Redes de Arrastos. Ela também trabalha na fábrica, onde vende equipamentos especializados.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgEngineer" src="Images\Engineer.png" alt="Engineer">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame galeCliffs" id="hermitPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Eremita</h2>
+                        <p>O Eremita vive sozinho nas ruínas de um assentamento próximo aos Penhascos Gale (Gale Cliffs). Ele morava lá feliz com sua esposa até que a Serpentina destruiu a cidade deles.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Quando o Pescador pergunta por que ele permanece nas ruínas, ele menciona seu irmão mais velho. Seu irmão é o Caçador de Baleias Aposentado que vive in Ingfell. Eles tiveram uma briga pela divisão da herança dos pais, então, quando ele e sua esposa decidiram deixar Ingfell, ele levou consigo o Brasão da Família (Family Crest). Ele confessa ter roubado o brasão de seu irmão e diz que não pode retornar a Ingfell sem ele — porém, ele perdeu o brasão quando a Serpente atacou a cidade, pois ela arrastou os destroços de sua casa para o covil dela.</p>
+                            <p>Depois que o Pescador o ajuda a recuperar o brasão e o devolve ao Velho Baleeiro como um pedido de desculpas, ele voltará para Ingfell e, por enquanto, ficará na antiga oficina de seu irmão.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgHermit" src="Images\Hermit.webp" alt="Hermit">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="dockworkerPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Estivador</h2>
+                        <p>O Estivador, à primeira vista, parece um trabalhador comum. No entanto, fica implícito que os pacotes que ele recebe contêm peixes anômalos, os quais também fica implícito que ele come. Mas ao contrário do Peixeiro, que para no primeiro, o Trabalhador das Docas receberá outro pacote, após o qual ele não será mais o mesmo. Essa mudança será refletida em seu retrato.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Se o jogador entregar o pacote grande primeiro e depois aceitar o pacote pequeno do prefeito, no momento em que o jogador retornar ao trabalhador das docas, este já estará em seu estado hipnotizado. Ele ainda aceitará o pacote pequeno, mas não lhe dará nenhuma recompensa.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgDpckworker" src="Images\Dockworker.webp" alt="Estivador">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens dlc ironRig"  id="executivePersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Executivo</h2>
+                        <p>O Executivo é um personagem da Plataforma Férrea. Ele aparece após a conclusão da seção da Bacia Estelar na perseguição Espécimes Estranhos.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Ele ignora os avisos do Capataz sobre o ataque à plataforma por uma criatura massiva e retoma as operações de perfuração. Ele desdenha das tentativas do Pescador de obter qualquer informação sobre as operações da Ironhaven e sobre a própria corporação.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgExecutive" src="Images\Executive.webp" alt="Executive">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame devilSpine" id="fanaticPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Fanático</h2>
+                        <p>O Fanático reside nas ruínas de um templo antigo. Ao docar, ele cumprimentará o Pescador como um discípulo das profundezas e como seu substituto. Ele mencionará o rito de purificação e, em seguida, passará a questionar o pescador. Independentemente das respostas do jogador, o fanático concluirá o teste e afirmará que o pescador ainda tem muito a aprender. Ele dará ao pescador o papel de seu iniciado, seu arauto do expurgo, assim como ele próprio foi para aquele que veio antes dele.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Ele instruirá o pescador a buscar três Chamas Insondáveis nos Santuários das Profundezas e, em seguida, colocar essas chamas nos crisóis das estátuas em frente ao Templo Antigo. Assim que as três chamas forem posicionadas, ele conduzirá o rito de purificação e partirá, deixando o pescador para assumir o seu lugar.</p>
+                        </div>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>O "rito de purificação" consiste em uma pira de chama azul, na qual o Fanático entra e se queima enquanto canta em uma língua desconhecida, sumindo e deixando em seu lugar um rélogio, item para a  continuidade da história.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                            <button class="btnToggleSpoiler" onclick="toggleSpoiler(this)">[Mostrar Spoilers]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgFanatic" src="Images\Fanatic.webp" alt="Fanatic">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="lighthouseKeeperPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Faroleira</h2>
+                        <p>A Faroleira de Medula Maior é uma personagem importante na história e é uma das poucas pessoas que conhece o Velho Prefeito de Medula Menor.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Ela é quem indica ao Pescador o caminho para a segunda Relíquia, localizada atrás de Medula Maior, embora também tente desencorajá-lo de procurar por ela.</p>
+                            <p>Seu farol pode ser visto por todo o mapa, tornando mais fácil encontrar o caminho de volta para as Medulas. A altura do farol também permite que ela observe os acontecimentos em as Medulas, então, quando perguntada sobre a Ilha da Pedra Negra, ela fala sobre o retorno de um barco condenado e a luz sobrenatural que piscava pelas suas janelas.</p>
+                        </div>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>Ela conhece o Pescador e sabe sobre da perda de sua esposa, pois viu pelo farol e é quem incentiva o jogador a fazer o final bom, desistindo de ressucitar sua falecida esposa em pról do mundo, acabando morto pelo Leviathan.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                            <button class="btnToggleSpoiler" onclick="toggleSpoiler(this)">[Mostrar Spoilers]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">]
+                            <img id="imgLighthouseKeeper" src="Images\LighthouseKeeper.webp" alt="Lighthouse Keeper">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame openOcean dlc paleReach" id="hoodedFigurePersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Figura(s) Encapuzada(s)</h2>
+                        <h4>Existem quatro Figuras Encapuzadas (cinco se você incluir a DLC The Pale Reach) espalhadas pelo mapa. Todas elas pedirão três peixes e darão um livro ao concluir sua busca.</h4>
+                        <div class="detalhesAdicionais">
+                            <p>Antes da versão 1.1.0 para PC, essa missão era cronometrada; portanto, se você demorasse muito para entregar um peixe, a Figura Encapuzada desapareceraria. O cronômetro só começava a contar depois que você interagisse com ela, então era possível coletar os três peixes antes de falar com ela. Nas versões atuais, no entanto, você pode completar a missão no seu próprio ritmo.</p>
+                            <p id="blueHoodedPersonagens"><b>A Figura Azul</b> está localizada em M7. Ela pedirá uma Cavala-Azul, uma Cavala-Tigre e uma Cavala-Serpente. Ela dará o livro "Negociação e Troca: Um Guia", que aumenta em 5% o preço de venda e reduz em 5% o preço de compra.</p>
+                            <p id="goldenHoodedPersonagens"><b>A Figura Dourada</b> está localizada em K2. Ela pedirá um Caranha, um Peixe-ogro e um Siri Azul. Ela dará o livro "Pesca Avançada", que aumenta em 15% a eficácia da pesca com vara.</p>
+                            <p id="redHoodedPersonagens"><b>A Figura Vermelha</b> está localizada em L14. Ela pedirá uma Enguia-cusk, um Peixe-vela e um Tubarão-cobra. Ela lhe dará o livro Engenharia Náutica, que fará com que equipamentos que usam durabilidade (como redes de arrasto) a percam 15% mais lentamente.</p>
+                            <p id="purpleHoodedPersonagens"><b>A Figura Roxa</b> está localizada em E9. Ela pedirá um Tarpon, um Caranguejo-ferradura e um Peixe-barril. Ela lhe dará o livro Levando ao Limite: Motores, que faz com que os motores forneçam 7,5% mais velocidade de movimento do que o indicado.</p>
+                            <p id="whiteHoodedPersonagens"><b>A Figura Branca</b> está localizada em K-5. Ela pedirá um Peixe-gelo Fractalino, Estrelas Cadentes e Vidente Crateroso. Ela lhe dará o livro Livro dos Símbolos Astrais, que aumenta em 4% sua chance de capturar uma aberração. (Presente na DLC “The Pale Reach”).</p>
+                            <p id="triviaPersonagens" class="triviaPersonagens">According to the Fanatic's dialogue, the hooded figures followed the same teachings as he did, but were overtaken by their endless hunger. The figures' hunger bears resemblance a story told by the Ingfell Resident about an old whaler who claimed to gain the secret of immortality from a scroll instructing him to consume abberated fish. The hooded figures appear in the game Dave the Diver in the DREDGE DLC. During nights when the fog falls, they will arrive at Bancho Sushi like any other customers. However, they will exclusively order sushi made out of aberrant fish, while every other costumer will refuse to try it.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Missões & Curiosidades]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgHoodedFigure" src="Images/Hoodded_Blue.webp" alt="HoodedFigure">
+                        </div>
+                        <div class="switchPhotosPersonagens">
+                            <button class="buttonColorsHoodedFigures blue active" id="blueFigure" onclick="switchPhotos(this, 'Images/Hoodded_Blue.webp')"></button>
+                            <button class="buttonColorsHoodedFigures golden" id="goldenFigure" onclick="switchPhotos(this, 'Images/Hoodded_Gold.webp')"></button>
+                            <button class="buttonColorsHoodedFigures red" id="redFigure" onclick="switchPhotos(this, 'Images/Hoodded_Red.webp')"></button>
+                            <button class="buttonColorsHoodedFigures purple" id="purpleFigure" onclick="switchPhotos(this, 'Images/Hoodded_Purple.webp')"></button>
+                            <button class="buttonColorsHoodedFigures white" id="whiteFigure" onclick="switchPhotos(this, 'Images/Hooded_White.png')"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame openOcean dlc paleReach" id="photographerPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Fotógrafa</h2>
+                        <p>A Fotógrafa é uma personagem adicionada na Atualização 2. Sua localização fica na ilha situada em K4.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Ela possui uma missão não marcada na qual você precisa encontrar uma caixa com novas lentes que ela deixou cair em algum lugar próximo da Bacia Estelar. Assim que você aceitar a missão, o local será marcado no mapa com um "X". Quando a missão for concluída, você poderá usar a Câmera e também perguntar a ela sobre criaturas de interesse para tirar fotografias delas.</p>
+                            <p>Ela também pode ser encontrada na DLC <b>The Pale Reach</b>, onde terá outra missão na qual pede que você encha uma cesta com peixes para atrair um <b>narval</b>. Após a conclusão dessa tarefa, ela deixará a região assustada com a ameaça.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgPhotographer" src="Images\Photographer.webp" alt="Photographer">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens dlc ironRig" id="founderPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Fundidor</h2>
+                        <p>O Fundidor é um indivíduo misterioso encontrado na Plataforma Férrea. Ele é mostrado como uma pessoa reservada e trabalhadora. Ele fica localizado na Metalúrgica, que serve como um local onde o jogador pode fabricar Caixas Ironhaven ou produzir Materiais e Peças de Pesquisa a partir delas.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Ele também administra o Submercado na Plataforma Férrea, que funciona da mesma forma que o estaleiro da Caixeira-viajante.</p>
+                            <p>Tudo isso acontece sem que a corporação Ironhaven perceba, algo que ele diz ser possível porque os "figurões" (os executivos da empresa) evitam frequentar os conveses inferiores da plataforma.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgFounder" src="Images\Founder.webp" alt="Founder">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame openOcean" id="julliePersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Julie</h2>
+                        <p>Julie é uma personagem central e a única personagem nomeada, apesar de aparecer fisicamente apenas nos momentos finais do jogo, além de ser a autora de muitas das Mensagens que aparecem ao longo do jogo.</p>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>É a esposa morta do Pescador/Colecionador, e, pelo diálogo com a Pesquisadora, é sugerido que ela possa ser sua irmã falecida.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleSpoiler" onclick="toggleSpoiler(this)">[Mostrar Spoilers]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgJulie" src="Images\Julie.webp" alt="Julie">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="courierPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Mensageiro</h2>
+                        <p>O Mensageiro é o infeliz entregador de outro pacote destinado ao Trabalhador das Docas. O barco dele pode ser encontrado ancorado nas águas rasas de uma ilha ao norte de Medula Maior e a oeste da Ponta de Aço. Ele nunca mostra o rosto e permanece dentro de sua cabine.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Ele não diz há quanto tempo está ancorado ali, mas menciona que um enorme Leviatã espreita nas águas profundas. Ele o viu sob seu barco com as mandíbulas escancaradas, ameaçando engolir sua embarcação inteira. Ele escapou para as águas rasas antes que a criatura conseguisse. Ele se recusa a fazer a entrega em Medula Menor, alegando que o Leviatã o está perseguindo. Se o Pescador se oferecer para fazer a entrega em seu lugar, ele dará ao Pescador o livro Superação de Corpo e Alma.</p>
+                            <p>A próxima vez que o Pescador visitar a ilha, após entregar o pacote, o Mensageiro terá partido.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgCourier" src="Images\Courier.webp" alt="Courier">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="traderPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>O Mercante</h2>
+                        <p>O Mercante que vive na Medula Menor dentro das Medulas. Ele compra itens de bugigangas (Trinkets), como joias, do jogador. Sua loja é o único local dentro da Medula Menor que pode ser visitado na demonstração de DREDGE.</p>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgTrader" src="Images\Trader.webp" alt="Trader">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame galeCliffs" id="ingfellResidentPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Moradora de Ingfell</h2>
+                        <p>A Moradora de Ingfell vive, como o próprio nome sugere, em Ingfell. Ela falará sobre os piratas e contrabandistas que um dia fizeram dos penhascos seu lar, além da história do antigo baleeiro chamado Magran e dará ao jogador a Atividade "Válido Até".</p>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgIngfellResident" src="Images\IngfellResident.webp" alt="IngfellResident">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="castawayPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Náufrago</h2>
+                        <p>O Náufrago é uma alma infeliz que foi jogada ao mar por uma onda que atingiu seu navio durante um mar agitado. Ele dirá que já se passaram duas semanas desde o incidente e que não viu nenhum outro barco além do do Pescador. Ele pedirá para ser levado a Medula Menor, onde espera alcançar seu navio e tripulação na próxima vez que eles pararem por lá.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Em gratidão, ele entregará seu Anel de Sinete, sugerindo que ele possa ter sido um capitão.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgCastaway" src="Images\Castaway.webp" alt="Castaway">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="grievingFatherPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Pai de Luto</h2>
+                        <p>O Pai de Luto vive na Medula Menor. Quando perguntado se conhece algum naufrágio, ele menciona seu único filho, que foi perdido no mar.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Ele pede ao Pescador que recupere uma fivela de cinto de bronze especialmente gravada, que pertencia ao seu filho, que o jogador pode ir até o local indicado atrás da Medula Menor, coletá-la e poderá vendê-la ao Mercante ou entregá-la ao pai.</p>
+                            <p>Quando questionado sobre acontecimentos estranhos, ele também fala sobre o Velho Prefeito de Medula Menor.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgGrievingFather" src="Images\GrievingFather.webp" alt="GrievingFather">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows galeCliffs stellarBasin twistedStrand devilSpine openOcean dlc paleReach ironRig" id="fishermanPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Pescador</h2>
+                        <p>O Pescador é o personagem do jogador. Ele se dirige a Medula Maior após ver um anúncio de emprego para um pescador. Ele colide com seu barco nas rochas pontiagudas ao longo da baía; o Pescador sobrevive ao impacto ileso, mas seu barco fica danificado além do conserto. Felizmente, o Prefeito lhe dá um dos barcos velhos e enferrujados e faz com que o Pescador se apresente ao Peixeiro e à Carpinteira.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Por um tempo, nada parece fora do comum, até que o Pescador captura sua primeira Aberração. Ele leva o peixe estranho ao Peixeiro, que então o abre e entrega ao Pescador sua primeira Relíquia, um lenço com estampas delicadas. Ao retornar ao seu barco, ele vê um homem do lado fora da janela da cabine. O estranho solicita que o Pescador leve o artefato para a Ilha de Pedra Preta. Assim que O Pescador chega ao casarão do estranho na Ilha de Pedra Preta, este se apresenta como o Colecionador e oferece ao Pescador equipamentos de dragagem em troca das quatro relíquias restantes. É com essa missão que o Pescador navega por todo o mapa, procurando as relíquias restantes.</p>
+                        </div>
+                        <div class="hiddenSpoilersPersonagens">
+                            <div class="ending1FishermanPersonagens">
+                                <h3>Final I - A esposa perdida surgindo do mar</h3>
+                                <p>Para este final, o Pescador deve entregar todas as cinco relíquias ao Colecionador. Ele dirá ao Pescador que eles precisam esperar o nevoeiro engrossar antes de fazerem sua última viagem ao mar. Assim que chegar o momento certo, o Colecionador orientará o Pescador a navegar a oeste de Medula Maior, até o lugar onde a perderam. O Colecionador começará a jogar as relíquias ao mar. Apesar disso, assim que as duas últimas desaparecem nas profundezas do mar, a melodia de uma caixinha de música começa a tocar e uma figura feminina surge do mar. Esta é a esposa que o Pescador/Colecionador perdeu para o mar, que emerge das profundezas. No entanto, ela não está sozinha, pois outra criatura surge diante do barco, massiva e adornada com incontáveis tentáculos, A Divindade (The Deity).</p>
+                                <p>O tamanho colossal da criatura causa ondas que balançam o barco. A cena escurece e nos é mostrada Medula Maior destruída, com fogo e fumaça subindo de suas ruínas.</p>
+                                <p>Se você fizer o segundo final primeiro, o diálogo mudará ligeiramente. O Colecionador desaparecerá de seu espelho e o pescador notará que o colecionador está com ele, em vez de o diálogo dizer que o colecionador está a bordo de sua embarcação. Então, aquele que joga as relíquias, abre o livro e lê suas páginas não será mais "Ele", mas "Você".</p>
+                            </div>
+                            <div class="ending2FishermanPersonagens">
+                                <h3>Final II - O Pescador e seu reflexo despedaçado</h3>
+                                <p>Encontrar o Velho Prefeito é necessário para desbloquear este final. Ele esclarecerá a origem do nevoeiro e das aberrações, falará sobre o livro e sugerirá que você converse com a Faroleira a respeito disso. Depois de falar com ela, o Pescador será encorajado a confrontar o Colecionador sobre seu livro. É nesse confronto que a verdadeira identidade tanto do Pescador quanto do Colecionador é revelada. O Colecionador não passa do reflexo do pescador em um espelho.</p>
+                                <p>O Pescador então levará o livro de volta para a Faroleira, que apontará a direção para onde o livro deve ser devolvido. Depois que o livro é devolvido ao mar, o Leviatã engolirá ele e seu barco, e o nevoeiro se dissipará, revelando uma aurora boreal em um céu noturno limpo. A cena escurece, mostrando Medula Maior em uma noite pacífica.</p>
+                            </div>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir História]</button>
+                            <button class="btnToggleSpoiler" onclick="toggleSpoiler(this)">[Mostrar Finais (Spoilers)]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgFisherman" src="Images\Fisherman.webp" alt="Fisherman">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="fishermongerPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Peixeiro</h2>
+                        <p>O Peixeiro é um personagem importante em DREDGE. Ele é o primeiro comerciante do jogo que compra os peixes do jogador. Além disso, ele vende covos para caranguejos, mas essa opção só fica disponível depois que o jogador conclui a missão 2 da tarefa "Peixe por Encomenda".</p>
+                        <div class="detalhesAdicionais">
+                            <p>O Peixeiro é apresentado pela primeira vez durante a missão "Um Novo Começo". Depois que o jogador o encontra, ele logo lhe dá a missão "Peixe por Encomenda", na qual solicita peixes específicos ao jogador. Após receber todos os peixes comuns que pediu, ele solicitará uma Aberração (um peixe mutado/anômalo). Ele também está envolvido na missão "Peixe Grotesco".</p>
+                            <p><i>Obs: especula-se que ele seja um residente de Ingfell que saiu de lá após o declínio da economia local.</i></p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgFishmonger" src="Images\Fishmonger.webp" alt="Fishmonger">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame stellarBasin" id="researcherPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Pesquisadora</h2>
+                        <p>A Pesquisadora pode ser encontrada na Fortaleza Antiga, próxima à Bacia Estelar. Ela estudou Ciências Biológicas na faculdade de Ironhaven e, após se formar, conseguiu um emprego na Sociedade de Pesquisa Biológica do Norte, que posteriormente a designou para um posto na Bacia Estelar.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Originalmente, ela estava instalada no Centro de Pesquisa dentro da Bacia Estelar, mas foi forçada a sair quando a grande criatura atacou o posto. Quando perguntada se há algo incomum na área, ela menciona ter encontrado cartas de sua irmã falecida entre seus documentos e também nas redes de coleta.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgResearcher" src="Images\Researcher.webp" alt="Researcher">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame twistedStrand" id="airmanPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Piloto</h2>
+                        <p>O Piloto é o último soldado sobrevivente na Praia Torta. De acordo com ele, ele e os outros caíram na névoa. Alguns colidiram contra as árvores ou caíram na água, e aqueles que sobreviveram se reuniram junto à árvore gigante. Infelizmente, o acampamento deles perto da árvore não os protegeu dos Sugadores de Mentes, e eles foram eliminados um a um, até que ele fosse o único que restou. Ele havia pendurado as Plaquetas de Identificação de seus companheiros na árvore para homenageá-los.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Ele passou seu tempo bolando uma maneira de matar os Sugadores de Mentes. O que ele eventualmente consegue quando o Pescador o ajuda a capturar os peixes necessários para suas iscas e a coletar as peças de um morteiro dos destroços dos aviões. Ele escolherá permanecer nas florestas mesmo depois que os Sugadores de Mentes tiverem sido derrotados, já que seu acampamento se tornou um lar para ele.</p>
+                            <p>É implícito, por meio de um obelisco encontrado perto de seu acampamento, que o resto do esquadrão do piloto foi morto por ele mesmo, devido ao fato de ter sido enlouquecido pelos Sugadores de Mentes.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgAirman" src="Images\Airman.webp" alt="Airman">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="painterPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Pintor</h2>
+                        <p>O Pintor é encontrado em Medula Menor, nas Medulas, e permite que você personalize seu barco, além de trocar sua Bandeira ou ativar/desativar suas Bandeirolas — pequenas bandeiras triangulares decorativas que ficam ao redor do barco.</p>
+                        <div class="detalhesAdicionais">
+                            <table border="1" class="tabelaCustomizacao">
+                                <caption><i>Personalização do Barco</i></caption>
+                                <thead>
+                                    <tr>
+                                        <th>Imagem</th>
+                                        <th>Nome</th>
+                                        <th>Requer</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="Images/Rustyred.webp" alt="Rustyred" height="150px" width="200px"></td>
+                                        <td style="color: #8b2626;">Vermelho-Enferrujado (Rusty Red)</td>
+                                        <td><i>Desbloqueado no início do jogo</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/Seaweedgreen.webp" alt="Seaweedgreen" height="150px" width="200px"></td>
+                                        <td style="color:#2e5c1e;">Verde-Alga-Marinha (Seaweed Green)</td>
+                                        <td><i>Desbloqueado no início do jogo</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/Bluedepths.webp" alt="Bluedepths" height="150px" width="200px"></td>
+                                        <td style="color:#141053;">Azul-Profundezas (Blue Depths)</td>
+                                        <td><i>Desbloqueado no início do jogo</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/Sharpmint.webp" alt="Sharpmint" height="150px" width="200px"></td>
+                                        <td style="color:#25d67e;">Menta-Vívido (Sharp Mint)</td>
+                                        <td><i>Requer: Caranguejo Cerebral e Pinças Malígnas (Cerebral Crab & Malignant Pincer)</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/Mapleorange.webp" alt="Mapleorange" height="150px" width="200px"></td>
+                                        <td style="color:#ee9818;">Laranja-Bordô (Maple Orange)</td>
+                                        <td><i>Requer: Decorador de Córtex e Caranguejo Fragmentado (Splintered Crab & Cortex Decorator)</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/Royalpurple.webp" alt="Royalpurple" height="150px" width="200px"></td>
+                                        <td style="color:#6f15ac;">Roxo-Real (Royal Purple)</td>
+                                        <td><i>Requer: Caranguejo Emaranhado e Lagosta Imperial (Entangled Crab & Imperious Lobster)</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/Goldentreasure.webp" alt="Goldentreasure" height="150px" width="200px"></td>
+                                        <td style="color:#d8d533;">Tesouro Dourado (Golden Treasure)</td>
+                                        <td><i>Requer: Caranguejo Efígie e Guinchador Lamacento (Effigy Crab & Mire Screecher)</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="Images/Blackabyss.webp" alt="Blackabyss" height="150px" width="200px"></td>
+                                        <td style="color:#30353b;">Preto Abismo (Black Abyss)</td>
+                                        <td><i>Marionete Sombria e Pegador Sombrio (Umbral Puppet & Sable Reacher)</i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Ver Tabela de Cores]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgPainter" src="Images\Painter.webp" alt="Painter">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="mayorPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Prefeito</h2>
+                        <p>Quando o Pescador perde seu barco antigo, o Prefeito lhe dá um dos barcos velhos que a cidade possui. Você pode conversar com ele sobre as áreas ao redor, o que lhe dará informações básicas sobre cada região. Se a sua dívida ainda não tiver sido totalmente paga, você pode recorrer a ele para quitá-la mais rapidamente. Ele também falará sobre o Último Pescador, reclamando bastante sobre o quão não confiável o pescador anterior era.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Assim que a dívida for paga, ele permitirá que a Carpinteira expanda seus serviços e abra a Doca Flutuante.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgMayor" src="Images\The_Mayor_Transparent.webp" alt="Mayor">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens dlc ironRig" id="foremanPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Supervisor</h2>
+                        <p>O Supervisor é o primeiro personagem que o jogador interage ao chegar à Plataforma Férrea, sendo o personagem mais presente durante toda a história</p>
+                        <div class="detalhesAdicionais">
+                            <p>Ele informa o jogador sobre </p>
+                            <p>Ele informa ao jogador que o projeto está atrasado porque os navios de suprimentos da Ironhaven Corporation desapareceram e pede a ajuda do jogador. Após a conclusão da atividade "Obtendo Energia", o Supervisor passa a comprar peixes do jogador no gerador. O Supervisor está diretamente envolvido nas atividades "A Plataforma de Ferro", "Perfuração nas Profundezas", "Obtendo Energia" e "Sabotagem".</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgForeman" src="Images\Foreman.webp" alt="Foreman">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame" id="lastFishermanPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Último Pescador</h2>
+                        <p>O Último Pescador é um personagem não visto, mencionado pelo Peixeiro e pelo Prefeito. De acordo com o Prefeito, ele era pouco confiável, saía à noite e voltava sem nenhum peixe, depois passava o dia inteiro dormindo. Ele também era um péssimo capitão, com tendência a encalhar o barco em recifes. Certa noite, ele simplesmente foi embora e nunca mais voltou.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Quanto ao Peixeiro, ele apenas dirá que é preciso um certo tipo de pessoa para conseguir sobreviver lá fora. Ele não parece ser particularmente lembrado ou sentido falta por ninguém.</p>
+                            <p>O que possivelmente seria o barco do Último Pescador pode ser encontrado destruído na ilha, nas coordenadas L5. Esse barco possui um espaço de inventário semelhante ao barco do jogador, e nele podem ser encontrados um Motor de Válvula Fraco e uma Vara de Pesca Básica. Também pode ser que este seja o barco original do Pescador visto na cena de abertura, mas isso não parece coincidir com o local onde supostamente ele teria naufragado.</p> 
+                        </div>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>Parece provável que o Último Pescador tenha acompanhado o Velho Prefeito e o Pescador/Colecionador quando o livro foi dragado no mar.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                            <button class="btnToggleSpoiler" onclick="toggleSpoiler(this)">[Mostrar Spoilers]</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="itemPersonagens baseGame galeCliffs twistedStrand openOcean" id="oldMayorPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Velho Prefeito</h2>
+                        <p>Muitos personagens não conhecem o Velho Prefeito de Medula Menor e aqueles que o conhecem, como a Faroleira, não querem falar sobre ele.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Os dois personagens que falam sobre o Velho Prefeito são o Pai de Luto e o Prefeito. De acordo com os dois, o Velho Prefeito enlouqueceu e passou seus últimos dias andando pela costa e gritando "Jogue de volta!" enquanto jogava os pertences das pessoas no mar.</p>
+                            <p>Depois de alguns dias fazendo isso, ele desapareceu das Medulas, e sua história passou a ser usada para assustar crianças.</p>
+                        </div>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>O pouco que a Faroleira diz sobre ele deixa claro que o Velho Prefeito tinha um barco próprio, especificamente um barco a remo. Então não é surpresa descobrir que, diferente de outros personagens, ele não possui uma localização fixa. Ele se move entre seu acampamento, que pode ser encontrado perto dos quatro píeres improvisados. Símbolos desconhecidos são frequentemente encontrados em seus acampamentos; esses símbolos são mais visíveis no acampamento dele na Bacia Estelar e no acampamento na Praia Torta. Encontrar o Velho Prefeito é necessário para desbloquear o final alternativo.</p>
+                            <p>Quando você encontra o Velho Prefeito, ele estará curvado perto de uma fogueira, murmurando para si mesmo. Ele perguntará ao Pescador if ele havia jogado o livro de volta, e, ao perceber a confusão do pescador, ele então contará sobre um homem e sua esposa, que retiraram o livro do mar através de uma dragagem, e junto com ele veio algo terrível coberto por uma névoa. Essa coisa desconhecida afundou o navio em que eles estavam. Eles chegaram à costa, mas aquele homem ainda segurava o livro. Eles imploraram para que ele jogasse o livro de volta enquanto a névoa avançava em direção à costa.</p>
+                            <p><i>Depois disso, o Velho Prefeito dirá ao Pescador para conversar com a Faroleira, dizendo que ela viu aquele dia desastroso e sabe onde o livro deve ser devolvido.</i></p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Expandir Detalhes]</button>
+                            <button class="btnToggleSpoiler" onclick="toggleSpoiler(this)">[Mostrar Segredos (Spoilers)]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgOldMayor" src="Images\OldMayor.webp" alt="OldMayor">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Site inspirado em DREDGE - Projeto Integrador</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

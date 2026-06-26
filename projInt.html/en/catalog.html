@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DREDGE Wiki - Catalog</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body class="bodyCatalogo">
+        <header>
+            <h1>DREDGE</h1>
+            <nav>
+                <div class="pageLinks">
+                    <a href="index.html">Home</a>
+                    <a href="characters.html">Characters</a>
+                    <a href="catalog.html">Catalog</a>
+                    <a href="bestiary.html">Bestiary</a>
+                    <a href="map.html">Map</a>
+                </div>
+                <a href="../catalogo.html" class="btn lang">Portuguese</a>
+            </nav>
+        </header>
+        <main class="mainCatalogo">
+            <div class="sobreCatalogo">
+                <aside>
+                    <fieldset class="fieldsetContent"><!--PYGAMES-->
+                    <h3>Conteúdo</h3>
+                    <button class="botaoToggle" onclick="alterContent(this)">[Close]</button>
+                </fieldset>
+                <fieldset class="showFieldset">
+                        <ol class="olContentCatalogo">
+                            <li><a href="#pescaCatalogo">Fishing</a>
+                                <ol>
+                                    <li><a href="#disturbedWatersCatalogo">Disturbed Waters</a></li>
+                                    <li><a href="#arrastoCatalogo">Trawling</a></li>
+                                    <li><a href="#covoCatalogo">Crab pots</a></li>
+                                </ol>
+                            </li>
+                            <li><a href="#sizeCatalogo">Size</a></li>
+                            <li><a href="#conditionCatalogo">Condition</a></li>           
+                            <li><a href="#aberrationCatalogo">Aberrations</a></li>
+                        </ol>
+                    </fieldset>
+                </aside><br>
+                <div class="textoCatalogo">
+                    <h2 class="tituloCatalogo">Catalog</h2><br>
+                    <p>The creature's catalog from<span class="destqCatalogo">DREDGE</span> is the main way to make money and it can be caught using the <span class="destqCatalogo">rod</span>, <span class="destqCatalogo">net</span> and <span class="destqCatalogo">pot</span>. They can be collected in the inventory and sold for a profit to the <span class="destqCatalogo">Fishmonger</span> or <span class="destqCatalogo">Travelling Merchant</span>. Not all Fish are actual fish (Like crustaceans, mollusks, gastropods).</p><br>
+                </div>
+            </div>
+            <div class="pescaCatalogo" id="pescaCatalogo">
+                <article><h2>Fishing</h2><br></article>
+                <hr>
+                <article class="disturbedWatersCatalogo" id="disturbedWatersCatalogo">
+                    <h3>Disturbed Waters</h3><br>
+                    <p>Most fish are caught in Disturbed Water, patches of the sea where the fish can be seen swimming below the surface. The player can pull up alongside these attractions and attempt to go fishing, but will need the proper equipment. Using the Spyglass ability on disturbed water will allow the player to identify what fish can be caught there; this only works if the player has caught that species of fish before.</p><br>
+                    <p>There are 8 Fish Types (not including 'fish' caught with Crab Pots)</p><br>
+                    <!-- foto das classes em português -->
+                    <p>The player starts with the equipment for catching coastal fish. The remaining types can only be caught using certain rods, nets, or pots, purchasable from the <span class="destqCatalogo">Shipwright </span> and <span class="destqCatalogo">Traveling Merchant</span> after researching.</p><br>
+                    <p>Fishing in disturbed water involves a mini-game with a fishing meter indicated on the left and a bar that spins around a wheel. As the fish on the meter gets closer to the top, the actual fish is closer to being caught. When the fish icon goes all the way up on the meter, the fish will be caught.</p><br>
+                    <p>If the player has a functional equipped <span class="destqCatalogo">Rod</span>, then green sections of the bar will appear. The player can click "Fish" or hit the F key while over these green sections to reel the fish in much quicker. Without a rod, it is impossible to catch fish. If all onboard rods are damaged, it is possible to fish in disturbed water, but the green segments will not appear, leaving no choice but to let the meter slowly complete on its own.</p><br>
+                    <p>Occasionally, a golden segment will appear on the wheel in addition to the green ones. If the player is able to time their click correctly to land on this segment, they will catch a "trophy" fish, with an extra large size and value.</p><br>
+                    <ul>
+                        <li>There is a 7.5% chance of a trophy notch, or 40% for <span class="destqCatalogo">bait</span>.</li>
+                        <li>Five fish must be caught after a trophy for another to have the chance of occurring.</li>
+                        <li>Fish caught using bait ignore the five fish cool down between trophy catches and trophy fish can be caught in direct succession at bait locations.</li>
+                    </ul><br>
+                </article>
+                <article class="arrastoCatalogo" id="arrastoCatalogo">
+                    <h3>Trawling</h3><br>
+                    <p>Trawling involves using <span class="destqCatalogo">Net</span>. The net can be placed down behind the boat as an <span class="destqCatalogo">Ability</span> and will be dragged along behind it, passively catching fish as the boat moves. The net has its own separate inventory space in which the fish are amassed. Nets will need to be repaired regularly.</p><br>
+                </article>
+                <article>
+                    <p>There are several fish types that can only be caught through trawling, such as the <span class="destqCatalogo">Aurora Jellyfish</span> and the <span class="destqCatalogo">Anchovy</span>.</p><br>
+                </article>
+                <article class="covoCatalogo" id="covoCatalogo">
+                    <h3>Crab Pots</h3><br>
+                    <p>Some creatures can be caught using crab pots. These items can be dropped into the ocean and will passively collect whatever crabs are in the area. If left for too long, however, they will break.</p><br>
+                    <p>Many creatures can only be caught in crab pots, including the Spider Crab and the Crown of Thorns.</p><br>
+                </article>
+            </div>
+            <div class="sizeCatalogo" id="sizeCatalogo">
+                <article>
+                    <h2>Size</h2><br>
+                    <p>Fish can vary in size. Larger fish are more valuable. A fish that is more than 85% of the maximum size will be considered a "trophy" and be worth a much higher amount than normal. Every fish can be a trophy, including aberrations. At the max size, the base price of a fish is increased by 25%.</p><br>
+                </article>
+            </div>
+            <div class="conditionCatalogo" id="conditionCatalogo">
+                <article>
+                    <h2>Condition</h2><br>
+                    <p>Fish have a condition which slowly degrades. Condition will degrade one level every 12 hours. This condition starts as "<span class="fresh">Fresh</span>", but slowly deteriorates to  "<span class="stale">Stale</span>", then "<span  class="rotting">Rotting</span>" and finally deteriorates to become worthless <span class="rot">Rot</span>taking up only one inventory slot. Because the status Infected is stored in the same slot as freshness, an <span class="infected">Infected</span> Fish cannot progress to a pile of Rot.</p><br>
+                    <ul>
+                        <li><span class="fresh">Fresh</span> fish worth 100% of their value.</li>
+                        <li><span class="stale">Stale</span> fish worth 60%.</li>
+                        <li><span class="rot">Rotting</span> fish worth 30%.</li>
+                        <li><span class="infected">Infected</span> fish worth 30%.</li>
+                    </ul><br>
+                </article>
+            </div>
+            <div class="aberrationCatalogo" id="aberrationCatalogo">
+                <article>
+                    <h2>Aberrations</h2><br>
+                    <p>Aberrations are mutated fish that are warped in appearance to their standard counterparts. They can be caught in the same disturbed waters as any other fish. Aberrations are guaranteed when there is a blue glow above the fishing spot. Other ways to increase the odds of catching one include fishing at <span class="night">night</span>, using some <span class="infected">cursed equipment</span>, and having a high <span class="rot">panic</span> level.</p><br>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <p>Site inspired by DREDGE - Integration Project</p>
+        </footer>
+        <script src="../script.js"></script>
+    </body>
+</html>
+<!--
+1. Bestiary - palavra correta para um catálogo de animais
+2. Stale - sendo literalmente um antônimo à fresco, como algo seco, no caso do peixe após muito tempo ser retirado d'água
+3. Mutated - palavra literal para mutação, muitas vezes usada no contexto biolígico
+4. Rot/Rotting - escolha dos criadores do jogo, provavelmente porque decay/decaying é mais usado para corpos mortos apodrecidos, diferente do apodrecimento dos animais marinhos
+5. Crab pots - também uma escolha dos criadores do jogo, por causa de utilização comum para aqueles que moram no mar
+6. Condition - para especificar o tempo que o peixe ficou fora d'água
+7. Disturbed waters - modo sombrio de sempre manter a tensão com o terror cósmico introduzido no jogo
+8. Trophy - um peixe 'premiado' pelo seu tamanho, como na vida real que existem peixes maiores que o normal
+9. amassed - forma mais comum de ser usada no meio marítimo
+10. Passively - de forma passífica, ou seja, sem interações constante
+-->
