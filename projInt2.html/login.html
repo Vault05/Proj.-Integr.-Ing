@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DREDGE</h1>
+        <nav>
+            <div class="pageLinks">
+                <a href="index.html">Início</a>
+                <a href="personagens.html">Personagens</a>
+                <a href="catalogo.html">Catálogo</a>
+                <a href="bestiario.html">Bestiário</a>
+                <a href="mapa.html">Mapa</a>
+                <a href="login.html">Login</a>
+                <a href="cadastro.html">Cadastro</a>
+            </div>
+            <a href="en/index.html" class="btn lang">Inglês</a>
+        </nav>
+    </header>
+
+<div class="login">
+    <h1>Login</h1>
+
+    <form action="login.php" method="POST">
+        <label for="usuario">Usuário:</label>
+        <input type="text" id="usuario" name="usuario" required>
+
+        <br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+
+        <br><br>
+
+        <button type="submit" class="submit">Entrar</button>
+    </form>
+    <br>
+    <p>Não tem conta? <a href="cadastro.html">Cadastrar</a></p>
+</div>
+</body>
+</html>
