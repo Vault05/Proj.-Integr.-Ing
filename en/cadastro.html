@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DREDGE Wiki - Sign Up</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body class="bodyMapa">
+        <header>
+            <h1>DREDGE</h1>
+            <nav>
+                <div class="pageLinks">
+                    <a href="index.html">Home</a>
+                    <a href="characters.html">Characters</a>
+                    <a href="catalog.html">Catalog</a>
+                    <a href="bestiary.html">Bestiary</a>
+                    <a href="map.html">Map</a>
+                    <a href="login.html">Login</a>
+                    <a href="cadastro.html">Sign Up</a>
+                </div>
+                <a href="../cadastro.html" class="btn lang">Portuguese</a>
+            </nav>
+        </header>
+
+<div class="cadastro">
+    <h1>Sign Up</h1>
+
+    <form action="cadastro.php" method="POST">
+        <label for="usuario">Username:</label>
+        <input type="text" id="usuario" name="usuario" required>
+
+        <br><br>
+
+        <label for="senha">Password:</label>
+        <input type="password" id="senha" name="senha" required>
+
+        <br><br>
+
+        <button type="submit" class="submit">Sign Up</button>
+    </form>
+    <br>
+    <p>Already have an account? <a href="login.html">Log in</a></p>
+
+</div>
+</body>
+</html>

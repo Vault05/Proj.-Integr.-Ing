@@ -1,0 +1,740 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DREDGE Wiki - Characters</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body class="bodyPersonagens">
+        <header>
+            <h1>DREDGE</h1>
+            <nav>
+                <div class="pageLinks">
+                    <a href="index.html">Home</a>
+                    <a href="characters.html">Characters</a>
+                    <a href="catalog.html">Catalog</a>
+                    <a href="bestiary.html">Bestiary</a>
+                    <a href="map.html">Map</a>
+                    <a href="login.html">Login</a>
+                    <a href="cadastro.html">Sign Up</a>
+                </div>
+                <a href="../personagens.html" class="btn lang">Portuguese</a>
+            </nav>
+        </header>
+        <div class="gridFilters">
+            <div class="filtersRow">
+                <button onclick="filterSystem('all')">General</button>
+                <button onclick="filterSystem('baseGame')">Base Game</button>
+                <button onclick="filterSystem('dlc')">DLC's</button>
+            </div>
+            <div class="filtersRow subFilters">
+                <button onclick="filterSystem('marrows')">The Marrows</button>
+                <button onclick="filterSystem('galeCliffs')">Gale Cliffs</button>
+                <button onclick="filterSystem('stellarBasin')">Stellar Basin</button>
+                <button onclick="filterSystem('twistedStrand')">Twisted Strand</button>
+                <button onclick="filterSystem('devilSpine')">Devil's Spine</button>
+                <button onclick="filterSystem('openOcean')">Open Ocean</button>
+                <button onclick="filterSystem('paleReach')">The Pale Reach</button>
+                <button onclick="filterSystem('ironRig')">The Iron Rig</button>
+            </div>
+        </div>
+        <main class="mainPersonagens">
+            <aside class="sidebarPersonagens">
+                <fieldset class="fieldsetContent">
+                    <h3>Content</h3>
+                    <button class="botaoToggle" onclick="alterContent(this)">[Close]</button>
+                </fieldset>
+                <fieldset class="showFieldset">
+                    <br>
+                    <ol class="olContentCatalogo">
+                        <!--A B C D E F G H I J K L M N O P Q R S T U V W X Y Z-->
+                        <li><a href="#airmanPersonagens">Airman</a></li>
+                        <li><a href="#builderPersonagens">Builder</a></li>
+                        <li><a href="#castawayPersonagens">Castaway</a></li>
+                        <li><a href="#collectorPersonagens">Collector</a></li>
+                        <li><a href="#courierPersonagens">Courier</a></li>
+                        <li><a href="#dockworkerPersonagens">Dockworker</a></li>
+                        <li><a href="#deityPersonagens">Deity</a></li>
+                        <li><a href="#dogPersonagens">Dog</a></li>
+                        <li><a href="#engineerPersonagens">Engineer</a></li>
+                        <li><a href="#executivePersonagens">Executive</a></li>
+                        <li><a href="#fanaticPersonagens">Fanatic</a></li>
+                        <li><a href="#fishermanPersonagens">Fisherman</a></li>
+                        <li><a href="#fishermongerPersonagens">Fishmonger</a></li>
+                        <li><a href="#founderPersonagens">Founder</a></li>
+                        <li><a href="#foremanPersonagens">Foreman</a></li>
+                        <li><a href="#grievingFatherPersonagens">Grieving Father</a></li>
+                        <li><a href="#hermitPersonagens">Hermit</a></li>
+                        <li><a href="#hoodedFigurePersonagens">Hoodded Figures</a></li>
+                        <li><a href="#ingfellResidentPersonagens">Ingfell Resident</a></li>
+                        <li><a href="#julliePersonagens">Julie</a></li>
+                        <li><a href="#lastFishermanPersonagens">Last Fisherman</a></li>
+                        <li><a href="#lighthouseKeeperPersonagens">Lighthouse Keeper</a></li>
+                        <li><a href="#mayorPersonagens">Mayor</a></li>
+                        <li><a href="#oldMayorPersonagens">Old Mayor</a></li>
+                        <li><a href="#painterPersonagens">Painter</a></li>
+                        <li><a href="#photographerPersonagens">Photographer</a></li>
+                        <li><a href="#researcherPersonagens">Researcher</a></li>
+                        <li><a href="#retiredWhalerPersonagens">Retired Whaler</a></li>
+                        <li><a href="#scientistPersonagens">Scientist</a></li>
+                        <li><a href="#shipwrigthPersonagens">Shipwright</a></li>
+                        <li><a href="#traderPersonagens">Trader</a></li>
+                        <li><a href="#travellingMerchantPersonagens">Travelling Merchant</a></li>
+                    </ol>
+                    <br>
+                </fieldset>
+            </aside>
+            <div class="gridPersonagens">
+                <div class="itemPersonagens baseGame twistedStrand" id="airmanPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Airman</h2>
+                        <p>The Airman is the last soldier survival in the Twisted Strand. According to him, he and the others crashed in the fog. Some collided into the trees or fell into the water, and those who survived gathered by the giant tree. Unfortunately, their camp near the tree did not protect them from the Mind Suckers, and they were eliminated one by one, until he was the only one left. He had hung his comrades' Dog Tags on the tree to honor them.</p>
+                        <div class="detalhesAdicionais">
+                            <p>He spent his time devising a way to kill the Mind Suckers. He eventually succeeds when the Fisherman helps him catch the necessary fish for his bait and collect the parts for a mortar from the plane wreckage. He will choose to remain in the woods even after the Mind Suckers have been defeated, as his camp has become a home to him.</p>
+                            <p>It is implied, through an obelisk found near his camp, that the rest of the pilot's squad was killed by the pilot himself, due to the fact that he was driven mad by the Mind Suckers.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgAirman" src="../Images\Airman.webp" alt="Airman">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="builderPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Builder</h2>
+                        <p>he Builder appears as soon as the Fisherman's boat receives the dredging equipment from the Collector. She will declare her desire to leave Greater Marrow and ask him to deliver some construction materials to Steel Point, where she plans to settle down. If assistance is granted, the island will grant him access to her dock.</p>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgBuilder" src="../Images\Builder.webp" alt="Builder">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="castawayPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Castaway</h2>
+                        <p>The Castaway is an unfortunate soul who was thrown overboard by a wave that struck his ship during rough seas. He will state that it has been two weeks since the incident and that he hasn't seen any other boat besides the Fisherman's. He will ask to be taken to Little Marrow, where he hopes to catch up with his ship and crew the next time they stop by.</p>
+                        <div class="detalhesAdicionais">
+                            <p>In gratitude, he will hand over his Signet Ring, suggesting that he might have been a captain.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgCastaway" src="../Images\Castaway.webp" alt="Castaway">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="collectorPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Collector</h2>
+                        <p>The Collector is a main character in DREDGE. He is found on Blackstone Isle, in The Marrows, and gives the player the main quest The Collector. He gives you the quest The Collector after you deliver the handkerchief to him on Blackstone Isle.</p>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>The player's interactions with the Collector significantly affect the end of the game. In the default ending, once all the relics have been delivered to the Collector, he will tell you to take him to a location in the open ocean. There, he will throw the relics into the water to revive his deceased wife, summoning a colossal creature whose invocation destroys Greater Marrow. During gameplay, you can discover clues about the book the Collector carries. If you unravel the book's secrets by talking to the Old Mayor and the Lighthouse Keeper, a secret "good" ending can be achieved. In this ending, the Fisherman discovers that the Collector is merely his own reflection and, after speaking with the Lighthouse Keeper, he decides to throw the Book of the Deep back into the sea. If this ending is achieved first, the Collector's actions in the default ending will be rewritten to look as if the Fisherman himself is performing them.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleSpoiler" onclick="toggleSpoilerEn(this)">[Show Spoilers]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgCollector" src="../Images\The_Collector.webp" alt="Collector">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="courierPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Courier</h2>
+                        <p>The Courier is the unfortunate deliveryman of another package destined for the Dockworker. His boat can be found anchored in the shallow waters of an island north of Greater Marrow and west of Steel Point. He never shows his face and remains inside his cabin.</p>
+                        <div class="detalhesAdicionais">
+                            <p>He does not say how long he has been anchored there, but mentions that a massive Leviathan lurks in the deep waters. He saw it beneath his boat with its jaws wide open, threatening to swallow his vessel whole. He escaped to the shallow waters before the creature could succeed. He refuses to make the delivery to Little Marrow, claiming that the Leviathan is hunting him. If the Fisherman offers to make the delivery in his place, he will give the Fisherman the book Sustainable Fishing.</p>
+                            <p>The next time the Fisherman visits the island after delivering the package, the Courier will have departed.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgCourier" src="../Images\Courier.webp" alt="Courier">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="dockworkerPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Dockworker</h2>
+                        <p>The Dockworker, at first glance, seems like an ordinary worker. However, it is implied that the packages he receives contain aberrant fish, which it is also implied that he eats. But unlike the Fishmonger, who stops at the first one, the Dockworker will receive another package, after which he will no longer be the same. This change will be reflected in his portrait.</p>
+                        <div class="detalhesAdicionais">
+                            <p>If the player delivers the large package first and then accepts the small package from the Mayor, by the time the player returns to the dockworker, the latter will already be in his mesmerized state. He will still accept the small package but will not give you any reward.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgDpckworker" src="../Images\Dockworker.webp" alt="Estivador">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame openOcean" id="deityPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>The Deity</h2>
+                        <p>The Deity is a massive and mysterious creature that appears in the endings of DREDGE. It can be considered the main antagonist of the game, as it is presumably the creator of the aberrations and the cause of the madness and malignant influence that spread throughout the game, whether intentionally or merely as a consequence of its existence.</p>
+                        <div class="detalhesAdicionais">
+                            <p>As a cosmic horror of unknown origins, it is impossible to speculate on the Deity's intentions, and there is no way to classify it as good or evil. However, the influence it spreads can be considered malignant, simply because of the damage it causes to the world and the humans living in it.</p>
+                            <p>It is suggested that the lighthouses are capable of containing the creature's influence and, perhaps, even the creature itself, keeping it away from the islands. The Ancient Lighthouse apparently managed to prevent it from destroying the ancient civilization of Devil's Spine, but the lighthouse was destroyed by a volcanic eruption, and the ancient civilization was ultimately completely destroyed both by the eruption and by the evil that invaded them after the light went out.</p>
+                        </div>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>In the game's default ending, the Deity emerges from the bottom of the sea, far west of Greater Marrow, having been awakened by the spell the Collector used to bring his wife back from the depths. In the final credits, Greater Marrow appears in flames and the lighthouse has been destroyed, suggesting that there is nothing left stopping the cosmic horrors below the waves from influencing the islands.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                            <button class="btnToggleSpoiler" onclick="toggleSpoilerEn(this)">[Show Spoilers]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgDeity" src="../Images\The_Deity.webp" alt="Deity">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame stellarBasin" id="dogPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Dog</h2>
+                        <p>The Dog is exactly what its description says: an abandoned dog. It is found outside the ruins of a resort cabin in Stellar Basin.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Você pode optar por entregá-lo à Pesquisadora. Se for entregue a ela, o retrato dela mudará para incluir o cão. Você também pode optar por ficar com o cão para si, mas para fazer isso você ainda deve falar com a Pesquisadora e escolher a opção "Pensando bem, acho que vou ficar com o cachorro". Fique ciente de que ficar com o cão significa que ele ocupará um espaço de 2x2 no inventário ou no armazenamento do seu barco. Além disso, o cão é um dos poucos itens que não pode ser perdido no mar (como acontece com outros itens quando você sofre um impacto) nem descartado. Independentemente da sua escolha, assim que a missão for concluída, o cão vai tossir e cuspir um Anel de Safira para você vender</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgDog" src="../Images\DogA.webp" alt="Dog">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens dlc ironRig" id="engineerPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Engineer</h2>
+                        <p>The Engineer is an employee of The Iron Rig. She is located in the rig's Tech Lab and Factory facilities.</p>
+                        <div class="detalhesAdicionais">
+                            <p>The Engineer allows players to research and upgrade their Abilities, as well as install devices that grant passive benefits for various in-game actions. This includes increasing turning, reverse, fishing, and dredging speeds, as well as absorbing heat from the Haste ability and increasing the catch rate of Trawl Nets. She also works in the factory, where she sells specialized equipment.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgEngineer" src="../Images\Engineer.png" alt="Engineer">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens dlc ironRig" id="executivePersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Executive</h2>
+                        <p>The Executive is a character from The Iron Rig. He appears after the completion of the Stellar Basin section in the Strange Specimens pursuit.</p>
+                        <div class="detalhesAdicionais">
+                            <p>He ignores the Foreman's warnings about the rig being attacked by a massive creature and resumes drilling operations. He dismisses the Fisherman's attempts to gain any information regarding Ironhaven's operations and the corporation itself.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgExecutive" src="../Images\Executive.webp" alt="Executive">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame devilSpine" id="fanaticPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Fanatic</h2>
+                        <p>The Fanatic resides in the ruins of an ancient temple. Upon docking, he will greet the Fisherman as a disciple of the deep and as his replacement. He will mention the purification rite and then proceed to question the Fisherman. Regardless of the player's answers, the Fanatic will conclude the test and state that the Fisherman still has much to learn. He will give the Fisherman the role of his initiate, his herald of the purge, just as he himself was to the one who came before him.</p>
+                        <div class="detalhesAdicionais">
+                            <p>He will instruct the Fisherman to retrieve three Fathomless Flames from the Shrines of the Deep and then place those flames in the stone crucibles of the statues in front of the Ancient Temple. Once all three flames are positioned, he will conduct the purification rite and depart, leaving the Fisherman to take his place.</p>
+                        </div>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>The "purification rite" consists of a pyre of blue flame, into which the Fanatic enters and burns himself while chanting in an unknown language, vanishing and leaving a watch in his place—an item required to continue the story.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                            <button class="btnToggleSpoiler" onclick="toggleSpoilerEn(this)">[Show Spoilers]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgFanatic" src="../Images\Fanatic.webp" alt="Fanatic">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows galeCliffs stellarBasin twistedStrand devilSpine openOcean dlc paleReach ironRig" id="fishermanPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Fisherman</h2>
+                        <p>The Fisherman is the player character. He heads to Greater Marrow after seeing a job advertisement for a fisherman. He crashes his boat into the jagged rocks along the bay; the Fisherman survives the impact unharmed, but his boat is damaged beyond repair. Fortunately, the Mayor gives him one of the old, rusty boats and has the Fisherman report to the Fishmonger and the Shipwright.</p>
+                        <div class="detalhesAdicionais">
+                            <p>For a time, nothing seems out of the ordinary, until the Fisherman catches his first Aberration. He takes the strange fish to the Fishmonger, who then cuts it open and hands the Fisherman his first Relic, a delicately patterned handkerchief. Upon returning to his boat, he sees a man outside the cabin window. The stranger requests that the Fisherman take the artifact to Blackstone Isle. As soon as the Fisherman arrives at the stranger's mansion on Blackstone Isle, the latter introduces himself as the Collector and offers the Fisherman dredging equipment in exchange for the four remaining relics. It is with this quest that the Fisherman sails across the map, searching for the remaining relics.</p>
+                        </div>
+                        <div class="hiddenSpoilersPersonagens">
+                            <div class="ending1FishermanPersonagens">
+                                <h3>Endind I - The lost wife emerging from the sea</h3>
+                                <p>For this ending, the Fisherman must deliver all five relics to the Collector. He will tell the Fisherman that they need to wait for the fog to thicken before making their last voyage to sea. Once the right moment arrives, the Collector will guide the Fisherman to sail west of Greater Marrow, to the place where they lost her. The Collector will begin throwing the relics into the sea. Despite this, as soon as the last two disappear into the deep sea, the melody of a music box begins to play and a female figure emerges from the sea. This is the wife that the Fisherman/Collector lost to the sea, who emerges from the depths. However, she is not alone, as another creature appears before the boat, massive and adorned with countless tentacles: The Deity.</p>
+                                <p>The creature's colossal size causes waves that rock the boat. The scene fades to black, and we are shown a destroyed Greater Marrow, with fire and smoke rising from its ruins.</p>
+                                <p>If you do the second ending first, the dialogue will change slightly. The Collector will disappear from his mirror, and the Fisherman will notice that the Collector is with him, instead of the dialogue saying that the Collector is aboard his vessel. Then, the one who throws the relics, opens the book, and reads its pages will no longer be "He," but "You."</p>
+                            </div>
+                            <div class="ending2FishermanPersonagens">
+                                <h3>Ending II - The Fisherman and his shattered reflection</h3>
+                                <p>Finding the Old Mayor is necessary to unlock this ending. He will clarify the origin of the fog and the aberrations, speak about the book, and suggest that you talk to the Lighthouse Keeper about it. After speaking with her, the Fisherman will be encouraged to confront the Collector about his book. It is in this confrontation that the true identity of both the Fisherman and the Collector is revealed. The Collector is nothing more than the Fisherman's reflection in a mirror.</p>
+                                <p>The Fisherman will then take the book back to the Lighthouse Keeper, who will point out the direction where the book must be returned. After the book is thrown back into the sea, the Leviathan will swallow him and his boat, and the fog will dissipate, revealing an aurora borealis in a clear night sky. The scene fades to black, showing Greater Marrow on a peaceful night.</p>
+                            </div>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                            <button class="btnToggleSpoiler" onclick="toggleSpoilerEn(this)">[Show Endings (Spoilers)]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgFisherman" src="../Images\Fisherman.webp" alt="Fisherman">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="fishermongerPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Fishmonger</h2>
+                        <p>The Fishmonger is an important character in DREDGE. He is the first merchant in the game who buys the player's fish. In addition, he sells crab pots, but this option only becomes available after the player completes quest 2 of the "Caught to Order" pursuit.</p>
+                        <div class="detalhesAdicionais">
+                            <p>The Fishmonger is first introduced during the "A Fresh Start" pursuit. After the player meets him, he soon gives them the "Caught to Order" pursuit, in which he requests specific fish from the player. After receiving all the normal fish he asked for, he will request an Aberration (a mutated/anomalous fish). He is also involved in the "Grotesque Fish" pursuit.</p>
+                            <p><i>Note: It is speculated that he is a resident of Ingfell who left after the decline of the local economy.</i></p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgFishmonger" src="../Images\Fishmonger.webp" alt="Fishmonger">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens dlc ironRig" id="founderPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Founder</h2>
+                        <p>The Founder is a mysterious individual found on The Iron Rig. He is shown to be a reserved and hardworking person. He is located at the Foundry, which serves as a place where the player can craft Ironhaven Crates or produce Materials and Research Parts from them.</p>
+                        <div class="detalhesAdicionais">
+                            <p>He also runs the Undermarket on The Iron Rig, which operates the same way as the Travelling Merchant's shipyard.</p>
+                            <p>All of this happens without the Ironhaven corporation noticing, something he claims is possible because the "bigwigs" (the company's executives) avoid visiting the platform's lower decks.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgFounder" src="../Images\Founder.webp" alt="Founder">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens dlc ironRig" id="foremanPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Foreman</h2>
+                        <p>The Foreman is the first character the player meets when they arrive at The Iron Rig, being the most present character throughout the entire story.</p>
+                        <div class="detalhesAdicionais">
+                            <p>He informs the player that the project is behind schedule since the Ironhaven Corporation ships with supplies have gone missing and enlists the player's help. After completing the pursuit Getting Power, the Foreman buys fish from the player at the generator. The Foreman is related to 'The Iron Rig", "Drilling in the Deep", "Getting Power" and "Sabotage" pursuits</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgForeman" src="../Images\Foreman.webp" alt="Foreman">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="grievingFatherPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Grieving Father</h2>
+                        <p>The Grieving Father lives in Little Marrow. When asked if he knows of any shipwrecks, he mentions his only son, who was lost to the sea.</p>
+                        <div class="detalhesAdicionais">
+                            <p>He asks the Fisherman to retrieve a specially engraved bronze belt buckle that belonged to his son. The player can go to the indicated location behind Little Marrow to collect it, and then choose to either sell it to the Trader or deliver it to the father.</p>
+                            <p>When questioned about strange occurrences, he also talks about the Old Mayor of Little Marrow.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgGrievingFather" src="../Images\GrievingFather.webp" alt="GrievingFather">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame galeCliffs" id="hermitPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Hermit</h2>
+                        <p>The Hermit lives alone in the ruins of a settlement near Gale Cliffs. He lived there happily with his wife until the Serpent destroyed their town.</p>
+                        <div class="detalhesAdicionais">
+                            <p>When the Fisherman asks why he remains in the ruins, he mentions his older brother. His brother is the Retired Whaler who lives in Ingfell. They had a falling out over the division of their parents' inheritance, so when he and his wife decided to leave Ingfell, he took the Family Crest with him. He confesses to stealing the crest from his brother and says he cannot return to Ingfell without it—however, he lost the crest when the Serpent attacked the town, as it dragged the wreckage of his house into its lair.</p>
+                            <p>After the Fisherman helps him retrieve the crest and returns it to the Retired Whaler as an apology, he will move back to Ingfell and, for the time being, stay in his brother's old workshop.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgHermit" src="../Images\Hermit.webp" alt="Hermit">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame openOcean dlc paleReach" id="hoodedFigurePersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Hooded Figure(s)</h2>
+                        <h4>There are four Hooded Figures (five if you include The Pale Reach DLC) scattered across the map. All of them will request three fish and reward you with a book upon completing their quest.</h4>
+                        <div class="detalhesAdicionais">
+                            <p>Prior to PC version 1.1.0, this quest was timed; therefore, if you took too long to deliver a fish, the Hooded Figure would starve. The timer only started counting after you interacted with them, so it was possible to collect all three fish before speaking to them. In current versions, however, you can complete the quest at your own pace.</p>
+                            <p id="blueHoodedPersonagens"><b>Blue Figure</b> is located in M7, it will request a Blue Mackerel, a Tiger Mackerel, and a Snake Mackerel. It will reward you with the book "Bargaining and Bartering: A Guide," which increases selling prices by 5% and reduces buying prices by 5%.</p>
+                            <p id="goldenHoodedPersonagens"><b>Golden Figure</b> is located in K2, it will request a Red Snapper, a Fangtooth, and a Blue Crab. It will reward you with the book "Advanced Fishing," which increases rod fishing effectiveness by 15%.</p>
+                            <p id="redHoodedPersonagens"><b>Red Figure</b> is located in L14. It will request a Cusk Eel, a Sailfish, and a Frilled Shark. It will reward you with the book "Nautical Engineering," which causes equipment that uses durability (such as trawl nets) to lose it 15% slower.</p>
+                            <p id="purpleHoodedPersonagens"><b>Purple Figure</b> is located in E9, it will request a Tarpon, a Horseshoe Crab, and a Barreleye. It will reward you with the book "Pushing the Limit: Engines," which causes engines to provide 7.5% more movement speed than indicated.</p>
+                            <p id="whiteHoodedPersonagens"><b>White Figure</b> is located in K-5, it will request a Fractalline Icefish, Fallen Stars, and a Craterous Seer. It will reward you with the book "Book of Astral Symbols," which increases your aberration catch chance by 4% (Featured in "The Pale Reach" DLC).</p>
+                            <p id="triviaPersonagens" class="triviaPersonagens">According to the Fanatic's dialogue, the hooded figures followed the same teachings as he did, but were overtaken by their endless hunger. The figures' hunger bears resemblance a story told by the Ingfell Resident about an old whaler who claimed to gain the secret of immortality from a scroll instructing him to consume abberated fish. The hooded figures appear in the game Dave the Diver in the DREDGE DLC. During nights when the fog falls, they will arrive at Bancho Sushi like any other customers. However, they will exclusively order sushi made out of aberrant fish, while every other costumer will refuse to try it.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Expanding Quests & Trivia]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgHoodedFigure" src="../Images/Hoodded_Blue.webp" alt="HoodedFigure">
+                        </div>
+                        <div class="switchPhotosPersonagens">
+                            <button class="buttonColorsHoodedFigures blue active" id="blueFigure" onclick="switchPhotos(this, '../Images/Hoodded_Blue.webp')"></button>
+                            <button class="buttonColorsHoodedFigures golden" id="goldenFigure" onclick="switchPhotos(this, '../Images/Hoodded_Gold.webp')"></button>
+                            <button class="buttonColorsHoodedFigures red" id="redFigure" onclick="switchPhotos(this, '../Images/Hoodded_Red.webp')"></button>
+                            <button class="buttonColorsHoodedFigures purple" id="purpleFigure" onclick="switchPhotos(this, '../Images/Hoodded_Purple.webp')"></button>
+                            <button class="buttonColorsHoodedFigures white" id="whiteFigure" onclick="switchPhotos(this, '../Images/Hooded_White.png')"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame galeCliffs" id="ingfellResidentPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Ingfell Resident</h2>
+                        <p>The Ingfell Resident lives, as her name suggests, in Ingfell. She will talk about the pirates and smugglers who once made the cliffs their home, as well as the history of the old whaler named Magran, and will give the player the "Best Before" Pursuit.</p>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgIngfellResident" src="../Images\IngfellResident.webp" alt="IngfellResident">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame openOcean" id="julliePersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Julie</h2>
+                        <p>Julie is a central character and the only named character, despite only physically appearing in the final moments of the game, as well as being the author of many of the Messages that appear throughout the game</p>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>She is the Fisherman/Collector's late wife, and, through dialogue with the Researcher, it is suggested that she might be her deceased sister.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleSpoiler" onclick="toggleSpoilerEn(this)">[Show Spoilers]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgJulie" src="../Images\Julie.webp" alt="Julie">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame" id="lastFishermanPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Last Fisherman</h2>
+                        <p>The Last Fisherman is an unseen character, mentioned by the Fishmonger and the Mayor. According to the Mayor, he was unreliable, going out at night and returning without any fish, then spending the entire day sleeping. He was also a terrible captain, with a tendency to run the boat aground on reefs. One night, he simply left and never returned.</p>
+                        <div class="detalhesAdicionais">
+                            <p>As for the Fishmonger, he will only say that it takes a certain type of person to manage to survive out there. He does not seem to be particularly remembered or missed by anyone.</p>
+                            <p>What could possibly be the previous fisherman's boat can be found wrecked on the island at coordinates L5. This boat features an inventory space similar to the player's boat, and a Weak Valve Engine and a Basic Fishing Rod can be found inside it. It is also possible that this is the Fisherman's original boat seen in the opening cutscene, but this does not seem to match the location where he supposedly shipwrecked.</p> 
+                        </div>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>It seems likely that the previous fisherman accompanied the Old Mayor and the Fisherman/Collector when the book was dredged from the sea.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                            <button class="btnToggleSpoiler" onclick="toggleSpoilerEn(this)">[Show Spoilers]</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="lighthouseKeeperPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Lighthouse Keeper</h2>
+                        <p>The Lighthouse Keeper of Greater Marrow is an important character in the story and is one of the few people who knows the Old Mayor of Little Marrow.</p>
+                        <div class="detalhesAdicionais">
+                            <p>She is the one who points the Fisherman toward the second Relic, located behind Greater Marrow, although she also tries to discourage him from searching for it.</p>
+                            <p>Her lighthouse can be seen from all over the map, making it easier to find the way back to The Marrows. The height of the lighthouse also allows her to observe the events in The Marrows, so when asked about Blackstone Isle, she speaks about the return of a doomed boat and the unnatural light that flickered through its windows.</p>
+                        </div>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>She knows the Fisherman and is aware of the loss of his wife, as she saw it from the lighthouse, and she is the one who encourages the player to pursue the good ending, giving up on resurrecting his deceased wife for the sake of the world, ending with him being killed by the Leviathan.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                            <button class="btnToggleSpoiler" onclick="toggleSpoilerEn(this)">[Show Spoilers]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">]
+                            <img id="imgLighthouseKeeper" src="../Images\LighthouseKeeper.webp" alt="Lighthouse Keeper">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="mayorPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Mayor</h2>
+                        <p>When the Fisherman loses his old boat, the Mayor gives him one of the old vessels that the town owns. You can talk to him about the surrounding areas, which will give you basic information about each region. If your debt has not been fully paid off yet, you can turn to him to settle it more quickly. He will also speak about the previous fisherman, complaining heavily about how unreliable the prior fisherman was.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Once the debt is paid, he will allow the Shipwright to expand her services and open the Dry Dock.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgMayor" src="../Images\The_Mayor_Transparent.webp" alt="Mayor">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame galeCliffs twistedStrand openOcean" id="oldMayorPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Old Mayor</h2>
+                        <p>Many characters do not know the Old Mayor of Little Marrow, and those who do, like the Lighthouse Keeper, do not want to talk about him.</p>
+                        <div class="detalhesAdicionais">
+                            <p>The two characters who speak about the Old Mayor are the Mournful Father and the Mayor. According to both, the Old Mayor went mad and spent his final days walking along the coast and screaming "Throw it back!" while throwing people's belongings into the sea.</p>
+                            <p>After a few days of doing this, he disappeared from The Marrows, and his story began to be used to scare children.</p>
+                        </div>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>The little that the Lighthouse Keeper says about him makes it clear that the Old Mayor had a boat of his own, specifically a rowboat. So it is no surprise to discover that, unlike other characters, he does not have a fixed location. He moves between his camps, which can be found near the four makeshift piers. Unknown symbols are frequently found at his camps; these symbols are most visible at his camp in Stellar Basin and his camp on Twisted Strand. Finding the Old Mayor is necessary to unlock the alternate ending.</p>
+                            <p>When you find the Old Mayor, he will be hunched over near a campfire, muttering to himself. He will ask the Fisherman if he had thrown the book back, and upon noticing the fisherman's confusion, he will then tell of a man and his wife, who pulled the book from the sea through dredging, and along with it came something terrible shrouded in a fog. This unknown thing sank the ship they were on. They made it to shore, but that man was still clutching the book. They begged him to throw the book back as the fog advanced toward the shore.</p>
+                            <p><i>After that, the Old Mayor will tell the Fisherman to speak with the Lighthouse Keeper, saying that she witnessed that disastrous day and knows where the book must be returned.</i></p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                            <button class="btnToggleSpoiler" onclick="toggleSpoilerEn(this)">[Show Segredos (Spoilers)]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgOldMayor" src="../Images\OldMayor.webp" alt="OldMayor">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="painterPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Painter</h2>
+                        <p>The Painter is found in Little Marrow, within The Marrows, and allows you to customize your boat, as well as change your Flag or toggle your Bunting — small, decorative triangular flags that hang around the boat.</p>
+                        <div class="detalhesAdicionais">
+                            <table border="1" class="tabelaCustomizacao">
+                                <caption><i>Ship Customization</i></caption>
+                                <thead>
+                                    <tr>
+                                        <th>Image</th>
+                                        <th>Name</th>
+                                        <th>Requires</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="../Images/Rustyred.webp" alt="Rustyred" height="150px" width="200px"></td>
+                                        <td style="color: #8b2626;">Rusty Red</td>
+                                        <td><i>Unlocked from the start</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="../Images/Seaweedgreen.webp" alt="Seaweedgreen" height="150px" width="200px"></td>
+                                        <td style="color:#2e5c1e;">Seaweed Green</td>
+                                        <td><i>Unlocked from the start</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="../Images/Bluedepths.webp" alt="Bluedepths" height="150px" width="200px"></td>
+                                        <td style="color:#141053;">Blue Depths</td>
+                                        <td><i>Unlocked from the start</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="../Images/Sharpmint.webp" alt="Sharpmint" height="150px" width="200px"></td>
+                                        <td style="color:#25d67e;">Sharp Mint</td>
+                                        <td><i>Requires: Cerebral Crab & Malignant Pincer</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="../Images/Mapleorange.webp" alt="Mapleorange" height="150px" width="200px"></td>
+                                        <td style="color:#ee9818;">Maple Orange</td>
+                                        <td><i>Requires: Splintered Crab & Cortex Decorator</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="../Images/Royalpurple.webp" alt="Royalpurple" height="150px" width="200px"></td>
+                                        <td style="color:#6f15ac;">Royal Purple</td>
+                                        <td><i>Requires: Entangled Crab & Imperious Lobster</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="../Images/Goldentreasure.webp" alt="Goldentreasure" height="150px" width="200px"></td>
+                                        <td style="color:#d8d533;">Golden Treasure</td>
+                                        <td><i>Requires: Effigy Crab & Mire Screecher</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="../Images/Blackabyss.webp" alt="Blackabyss" height="150px" width="200px"></td>
+                                        <td style="color:#30353b;">Black Abyss</td>
+                                        <td><i>Requires: Umbral Puppet & Sable Reacher</i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Ver Tabela de Cores]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgPainter" src="../Images\Painter.webp" alt="Painter">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame openOcean dlc paleReach" id="photographerPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Photographer</h2>
+                        <p>The Photographer is a character added in Update 2. Her location is on the island situated at K4.</p>
+                        <div class="detalhesAdicionais">
+                            <p>She has an unmarked quest in which you need to find a box of new lenses that she dropped somewhere near Stellar Basin. Once you accept the quest, the location will be marked on the map with an "X". When the quest is completed, you will be able to use the Camera and also ask her about creatures of interest to take photographs of them.</p>
+                            <p>She can also be found in <b>The Pale Reach</b> DLC, where she has another quest in which she asks you to fill a basket with fish to attract a <b>narwhal</b>. Upon completion of this task, she will leave the region, frightened by the threat.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgPhotographer" src="../Images\Photographer.webp" alt="Photographer">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame stellarBasin" id="researcherPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Research</h2>
+                        <p>The Research can be found at the Old Fortress near Stellar Basin. She studied Biological Sciences at Ironhaven college and, after graduating, secured a job at the Northern Biological Research Society, which subsequently assigned her to a post in Stellar Basin.</p>
+                        <div class="detalhesAdicionais">
+                            <p>Originally, she was stationed at the Research Assistant's facility within Stellar Basin but was forced to leave when the massive creature attacked the outpost. When asked if there is anything unusual in the area, she mentions finding letters from her deceased sister among her documents and also in the collection nets.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgResearcher" src="../Images\Researcher.webp" alt="Researcher">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame galeCliffs" id="retiredWhalerPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Retired Whaler</h2>
+                        <p>The Retired Whaler lives in Ingfell. He used to manufacture explosives for Ingfell's whaling operations. The explosives were used to dismember whale carcasses. However, around twenty years ago, whales became so scarce in Gale Cliffs that it ultimately brought an end to the whaling industry.</p>
+                        <div class="detalhesAdicionais">
+                            <p>He is the older brother of the Hermit, though the two fell out after a fight over their parents' inheritance. Before completing the Hermitage quest, he refers to his brother as a fiend, showing that he still harbors some resentment over him stealing the Family Crest before leaving for the nearby settlement in Gale Cliffs.</p>
+                            <p>His resentment subsides after the return of the crest, and he then allows his brother to stay in his old workshop. After the Hermitage quest is completed, he will begin selling Packed Explosives at the Whaling Yard.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetalhes(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgRetiredWhaler" src="../Images\RetiredWhaler.webp" alt="RetiredWhaler">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens dlc ironRig" id="scientistPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Scientist</h2>
+                        <p>The Scientist has been an employee of the Ironhaven Corporation for over 50 years. He is conducting experiments on the strange fish and the Dark Fluid found throughout the area, which began to appear from the fissure created by the drilling operations.</p>
+                        <div class="detalhesAdicionais">
+                            <p>The Scientist tasks the Fisherman with collecting several new fish species, Dark Canisters filled with the released substance, and retrieving his assistant's research findings, being involved in the pursuits: "Strange Specimens", "Defend the Rig", and "Contamination".</p>
+                        </div>
+                        <div class="hiddenSpoilersPersonagens">
+                            <p>At each stage of every pursuit, if the player talks to the Scientist, they can see that the research is not based on altruism and the improvement of human life as claimed, and that the researcher knows and understands the consequences of his actions. After obtaining the species from Twisted Strand, the Scientist can be seen hiding his face, and after setting up the rig's defenses, he turns his face, showing that his eyes have changed. After leaving, the next time you encounter him, he will be hidden from view behind his board, and after delivering the fish from Devil's Spine to him, he will abruptly lunge at the fish and begin consuming them. With this action, he reveals his new form, completely corrupted by the Deep, points with his claw, and roars accusingly at the Fisherman before jumping through the window toward the open ocean.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                            <button class="btnToggleSpoiler" onclick="toggleSpoilerEn(this)">[Show Spoilers]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgScientist" src="../Images\Scientist.png" alt="Scientist">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="shipwrigthPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Shipwright</h2>
+                        <p>The Shipwright is located at the Greater Marrow dock, within The Marrows. She sells Nets and Fishing Rods for catching fish, as well as Engines and Lights to improve your boat. She also manages the Floating Dock, where you can upgrade your vessel.</p>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgShipWrigth" src="../Images\The_Shipwright_Transparent.webp" alt="Shipwright">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame marrows" id="traderPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Trader</h2>
+                        <p>The Trader lives in Little Marrow within The Marrows. He buys trinket items, such as jewelry, from the player. His shop is the only location within Little Marrow that can be visited in the DREDGE demo.</p>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgTrader" src="../Images\Trader.webp" alt="Trader">
+                        </div>
+                    </div>
+                </div>
+                <div class="itemPersonagens baseGame galeCliffs stellarBasin twistedStrand devilSpine dlc paleReach" id="travellingMerchantPersonagens">
+                    <article class="contentPersonagens">
+                        <h2>Travelling Merchant</h2>
+                        <p>The Travelling Merchant is a character found at each of the four pontoons marked on the map. She offers several useful services, such as access to your storage, a fish market, boat repairs at the shipyard, and boat upgrades at the floating dock.</p>
+                        <div class="detalhesAdicionais">
+                            <p>She is present in the main areas of the game, including Gale Cliffs, Stellar Basin, Twisted Strand, Devil's Spine, and in The Pale Reach DLC.</p>
+                            <p>When talking to her, you will receive some mildly useful information (mostly related to the lore of the surrounding area) and the Recording Rarities pursuit.</p>
+                        </div>
+                        <div class="cardBotoes">
+                            <button class="btnToggleDetalhes" onclick="toggleDetails(this)">[Read More]</button>
+                        </div>
+                    </article>
+                    <div class="sideCardPersonagens">
+                        <div class="imgCardPersonagens">
+                            <img id="imgTravellingMerchant" src="../Images\Travelling_merchant_-_dredge.webp" alt="Travelling Merchant">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Site inspired by DREDGE - Integration Project</p>
+        </footer>
+        <script src="../script.js"></script>
+    </body>
+</html>
+<!--
+1. Pursuit foi usado ao invés de task por conta da tradução original, que optou pelo uso de pursuit pelo seu significado misto de tarefa e 'perseguição', seguindo o estilo sombrio online;
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+-->

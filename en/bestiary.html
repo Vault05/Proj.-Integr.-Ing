@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DREDGE Wiki - Bestiary</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <header class="headerEnemies">
+            <h1>DREDGE</h1>
+            <nav>
+                <div class="pageLinks">
+                    <a href="index.html">Home</a>
+                    <a href="characters.html">Characters</a>
+                    <a href="catalog.html">Catalog</a>
+                    <a href="bestiary.html">Bestiary</a>
+                    <a href="map.html">Map</a>
+                    <a href="login.html">Login</a>
+                    <a href="cadastro.html">Sign Up</a>
+                </div>
+                <a href="../bestiario.html" class="btn lang">Portuguese</a>
+            </nav>
+        </header>
+        <div class="titleEnemies">
+            <h1>Threat Encyclopedia</h1>
+            <p class="subtitle">The definitive record of all terrors that dwell in the waters and the mind</p><br><br>
+        </div>
+        <div class="filters">
+            <button class="active" onclick="filterFish('all')">All Dangers</button>
+            <button onclick="filterFish('regional')">Territorial Monsters</button>
+            <button onclick="filterFish('panic')">Manifestations of Panic</button>
+        </div>
+        <main class="bestiary-grid">
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="../Images\Serpent2.webp" m="Anfípode Gigante">
+                </div>
+                <h2>Serpent</h2>
+                <span class="habitat">Gale Cliffs</span>
+                <p class="description">A blind crustacean of biblical proportions that crawls through the rocky channels of Storm Cliff. It destroys rocks and hulls with equal ease when enraged.</p>
+            </div>
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="../Images\StellarBasinCreature.webp" alt="Criatura Abissal" />
+                </div>
+                <h2>Hadal Creature</h2>
+                <span class="habitat">Stellar Basin</span>
+                <p class="description">A colossal sea monster whose bioluminescent tentacles block the center of the Basin. It ruthlessly attacks any boat, unless temporarily repelled by laboratory technology.</p>
+            </div>
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="../Images\MindSucker.webp" alt="Sugadores de Mente" />
+                </div>
+                <h2>Mind Suckers</h2>
+                <span class="habitat">Twisted Strand</span>
+                <p class="description">Gigantic parasites disguised among the mangrove roots. They hunt by the sound of the engine and, upon surrounding the boat, directly attack the fisherman's sanity.</p>
+            </div>
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="../Images\Piranhas.webp" alt="Cardume Cego" />
+                </div>
+                <h2>Hungry Swarm</h2>
+                <span class="habitat">Devil's Spine</span>
+                <p class="description">Small, reddish parasitic fish. They do not damage the boat directly, but latch onto the hull, emitting a scalding heat and shriek-like squeals that attract larger predators.</p>
+            </div>
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="../Images\UnseeingMother2.webp" alt="A Mãe" />
+                </div>
+                <h2>Mother (Eyeless Beast)</h2>
+                <span class="habitat">Devil's Spine</span>
+                <p class="description">A gigantic abomination of stone and lava that patrols the submerged ruins. It is relentless and fiercely attacks the player as soon as the Blind School betrays their position.</p>
+            </div>
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="../Images\Monstrous_narwhal_photo.webp" alt="O Narval Gigante" />
+                </div>
+                <h2>Mostrous Narwhal</h2>
+                <span class="habitat">The Pale Reach</span>
+                <p class="description">An albino leviathan that cracks the glacial ice with its massive horn. To safely cross its territory, the fisherman must distract it by feeding it fresh fish.</p>
+            </div>
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="../Images\Ocularooze.webp" alt="Sifonóforo Negro" />
+                </div>
+                <h2>Ocular Ooze</h2>
+                <span class="habitat">The Iron Rig</span>
+                <p class="description">A floating, gelatinous entity born from the dark liquid spilled from the deep trench. Its tendrils contaminate the water and attack vessels that pierce the black mist.</p>
+            </div>
+            <div class="fish-card regional">
+                <div class="fish-image-container">
+                    <img src="../Images\Leviathan.webp" alt="O Leviatã" />
+                </div>
+                <h2>Leviathan</h2>
+                <span class="habitat">The Map's Edges</span>
+                <p class="description">The ultimate creature that encircles the world. Those fools who try to flee the archipelago by sailing into the open ocean are swallowed whole by its colossal jaws.</p>
+            </div>
+            <div class="fish-card panic">
+                <div class="fish-image-container">
+                    <img src="../Images\GhostShip.webp" alt="Falso Barco" />
+                </div>
+                <h2>False Fisherman Ship</h2>
+                <span class="habitat">Open Ocean | Midnight</span>
+                <p class="description">A silhouette in the fog with lights identical to those of an allied ship. As you draw closer, the illusion shatters, revealing the teeth of a giant Anglerfish that uses the light as bait.</p>
+            </div>
+            <div class="fish-card panic">
+                <div class="fish-image-container">
+                    <img src="../Images\Birds.webp" alt="Corvos da Névoa" />
+                </div>
+                <h2>Birds</h2>
+                <span class="habitat">Any Region | Medium Panic</span>
+                <p class="description">Ghostly birds that appear when the captain's mind begins to unravel. They encircle the deck and steal fish and cargo directly from the hold.</p>
+            </div>
+            <div class="fish-card panic">
+                <div class="fish-image-container">
+                    <img src="../Images\GhostShip.webp" alt="Barco Fantasma" />
+                </div>
+                <h2>Ghost Ship</h2>
+                <span class="habitat">Open Ocean | High Panic</span>
+                <p class="description">A swift, spectral vessel that charges directly toward the player on a collision course. Though it appears real, it dissipates into smoke right upon impact, leaving nothing but terror.</p>
+            </div>
+            <div class="fish-card panic">
+                <div class="fish-image-container">
+                    <img src="../Images\JellyBomb.webp" alt="Tornado de Névoa" />
+                </div>
+                <h2>JellyBomb and Watersprout</h2>
+                <span class="habitat">Stellar Basin/Any Place | Night</span>
+                <p class="description">Crimson tornadoes and floating jellyfish that appear out of nowhere to pursue the vessel. Crossing their path fries the boat's engines and jams equipment.</p>
+            </div>
+        </main>
+        <br><br>
+        <footer>
+            <p>Site inspired by DREDGE - Integration Project</p>
+        </footer>
+        <script src="../script.js"></script>
+    </body>
+</html>
